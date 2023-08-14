@@ -1,0 +1,2654 @@
+LOCUS       MH586730               55978 bp    DNA     linear   PHG 23-APR-2020
+DEFINITION  Salmonella phage Solent, complete genome.
+ACCESSION   MH586730
+VERSION     MH586730.1
+DBLINK      BioProject: PRJNA222858
+            BioSample: SAMN11259659
+            Sequence Read Archive: SRR8788203
+KEYWORDS    .
+SOURCE      Salmonella phage Solent
+  ORGANISM  Salmonella phage Solent
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota; Caudoviricetes;
+            Sashavirus.
+REFERENCE   1  (bases 1 to 55978)
+  AUTHORS   Zeng,C., Gilcrease,E.B., Hendrix,R.W., Xie,Y., Jalfon,M.J.,
+            Gill,J.J. and Casjens,S.R.
+  TITLE     DNA Packaging and Genomics of the Salmonella 9NA-Like Phages
+  JOURNAL   J. Virol. 93 (22), e00848-19 (2019)
+   PUBMED   31462565
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 55978)
+  AUTHORS   Jalfon,M.J., Xie,Y., Liu,M. and Kongari,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (05-JUL-2018) Department of Biochemistry and Biophysics,
+            Center for Phage Technology, TAMU, 2128 TAMU, College Station, TX
+            77843, USA
+FEATURES             Location/Qualifiers
+     source          1..55978
+                     /organism="Salmonella phage Solent"
+                     /mol_type="genomic DNA"
+                     /isolation_source="soil from cattle feedlot"
+                     /host="Salmonella enterica subsp. enterica serovar
+                     Kentucky"
+                     /db_xref="taxon:2283281"
+                     /country="USA: South Texas"
+                     /collection_date="Jul-2016"
+                     /collected_by="Yicheng Xie"
+     gene            343..993
+                     /locus_tag="CPT_Solent_001"
+     regulatory      346..349
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_001"
+                     /note="CPT_Solent_001"
+     CDS             358..993
+                     /locus_tag="CPT_Solent_001"
+                     /note="Good blast hit to characterized variant (APU92757.1,
+                     E-value<1e-150)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="small terminase subunit"
+                     /protein_id="AXY86169.1"
+                     /translation="MKISDRAKRAALELSPEQLKFANLWLDRVNNGFSNTRCVLEAYPG
+                     HTSDAAAATTAHRLLSNTKVLNYLDAMGSHALESVGESLTSRVEWWKRAASTAEELLEP
+                     YCQRVIVPGEDDTEAKHLWVNSTDDIPSHLQQYVVCYKRYVLGGYILVTRELFDPKTRA
+                     KASEQLDKITGNSIDRVELSGVVGNVVQSVPEGATIDDIAQLYQKALK"
+     gene            complement(1114..1327)
+                     /locus_tag="CPT_Solent_002"
+     CDS             complement(1114..1317)
+                     /locus_tag="CPT_Solent_002"
+                     /note="Blasted only to one SensB_Sasha phage hypothetical
+                     protein; only conserved in Salmonella phages"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86170.1"
+                     /translation="MIVKCSGFTKIADRYRELFTVGKCYLVDQKSEKVFDDNGKPQPFD
+                     FEKLAVDGTPGIYVHFQNIARN"
+     regulatory      complement(1324..1327)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_002"
+                     /note="CPT_Solent_002"
+     gene            complement(1353..1573)
+                     /locus_tag="CPT_Solent_003"
+     CDS             complement(1353..1559)
+                     /locus_tag="CPT_Solent_003"
+                     /note="No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86171.1"
+                     /translation="MNYIPKCLREIPKVKQKPRKQAIKEAKIEAFNIAISIINDKCRIE
+                     KSDRMKSNMFSAMSEIAILRDKL"
+     gene            complement(1559..1760)
+                     /locus_tag="CPT_Solent_004"
+     CDS             complement(1559..1747)
+                     /locus_tag="CPT_Solent_004"
+                     /note="No hits for ST9NA; No conserved domain hits; only
+                     conserved in Salmonella phages"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86172.1"
+                     /translation="MKNFETKAECEKYIVAEYGECAFQVGVIFAYRVKPIEAKMFGLVE
+                     GSYMSSNEFDEATGYGR"
+     regulatory      complement(1570..1573)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_003"
+                     /note="CPT_Solent_003"
+     regulatory      complement(1757..1760)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_004"
+                     /note="CPT_Solent_004"
+     regulatory      complement(1822..1847)
+                     /regulatory_class="terminator"
+     gene            complement(1857..2207)
+                     /locus_tag="CPT_Solent_005"
+     CDS             complement(1857..2192)
+                     /locus_tag="CPT_Solent_005"
+                     /note="No hits for ST9NA; No conserved domain hits
+                     (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86173.1"
+                     /translation="MKTEQERIIQWLCSGETGLSSKTMVCIHTGNEMGGDWGFHAPSDV
+                     ADFRRCWSLVEAVPEIRNSFPLIAEKCPAFKGVIENWDIISAAYERERGSGKYPETYRL
+                     LKEALGE"
+     gene            complement(2189..2458)
+                     /locus_tag="CPT_Solent_006"
+     CDS             complement(2189..2446)
+                     /locus_tag="CPT_Solent_006"
+                     /note="No hits for ST9NA; No conserved domain hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86174.1"
+                     /translation="MTRSDAERNHNAGYKSIEGQNYLSYFQTAETLEEINQKTLTVRDQ
+                     FAIAALQGMLSGQFPDEMDEELYATRAYILADAMMEARNK"
+     regulatory      complement(2203..2207)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_005"
+                     /note="CPT_Solent_005"
+     gene            complement(2443..3372)
+                     /locus_tag="CPT_Solent_007"
+     CDS             complement(2443..3357)
+                     /locus_tag="CPT_Solent_007"
+                     /note="has putative exonuclease RdgC domain (interpro);
+                     Blasted to several characterized proteins, especially P1
+                     HrdC; has RdgC exonuclease domain and 1 coil domain
+                     (interpro); Weak hit to recombination associated RdgC
+                     domain (score=36.198; interpro); putative
+                     Recombination-associated protein or RdgC Exonuclease"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative recombination-associated protein"
+                     /protein_id="AXY86175.1"
+                     /translation="MNFFKNAIIYRLTNPMSIMAQLPTLETQLQQFKFTQCGSQDMART
+                     GWVPATEQHQTLVHQANGQYLLTIQKQEKIIPGPVIKQELNARIAKLESEQGRKLKKTE
+                     KDALKDEVLHSLLPRAFVKNHRTQLWIDIGNASIVVDASSAKRAEDALALLRKSLGSLP
+                     VVPLTIENPVELTMTEWVRSGMVPAGFTMGDAAELKAILADGGIAKVKKQDLTSDEIKT
+                     HIEAGKLVTKLALDWQERITFTLSDSVTLSRLKFCNELVCQNDDIDCEDVLARFDADFV
+                     LMTGELQALIKQLITALGGEAKR"
+     regulatory      complement(2454..2458)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_006"
+                     /note="CPT_Solent_006"
+     gene            complement(3360..3529)
+                     /locus_tag="CPT_Solent_008"
+     CDS             complement(3360..3518)
+                     /locus_tag="CPT_Solent_008"
+                     /note="No hits for ST9NA; No conserved domain hits; only
+                     conserved in Salmonella phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86176.1"
+                     /translation="MKRLTAELNMAIHSTVQTNLIVEAECVDYTCISYSPSVAIQTSVK
+                     VNPRDID"
+     regulatory      complement(3370..3372)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_007"
+                     /note="CPT_Solent_007"
+     gene            complement(3515..3703)
+                     /locus_tag="CPT_Solent_009"
+     CDS             complement(3515..3694)
+                     /locus_tag="CPT_Solent_009"
+                     /note="Has signal peptide, no TM (interpro); No
+                     extracellular domain (interpro); hypothetical conserved
+                     protein; No hits for ST9NA; only conserved in Salmonella
+                     phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative peripheral cytoplasmic membrane protein"
+                     /protein_id="AXY86177.1"
+                     /translation="MIHILLLHHFISLMGSLKTNNIVWDEPPQVTQQLPTKQPRRKTGV
+                     AQARHNARKRRNRK"
+     regulatory      complement(3526..3529)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_008"
+                     /note="CPT_Solent_008"
+     gene            complement(3691..3969)
+                     /locus_tag="CPT_Solent_010"
+     CDS             complement(3691..3957)
+                     /locus_tag="CPT_Solent_010"
+                     /note="No hits for ST9NA; only conserved in Salmonella
+                     phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86178.1"
+                     /translation="MFQVNQHVEITSPRLLEVLARRKSKPLGIVVAVDPQAEYPVKVRI
+                     TDDNGFQIPFKFDGEKCDFTFSFTMDGHHDHRSLSPDLKVVNV"
+     regulatory      complement(3701..3703)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_009"
+                     /note="CPT_Solent_009"
+     regulatory      complement(3966..3969)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_010"
+                     /note="CPT_Solent_010"
+     gene            complement(3993..4210)
+                     /locus_tag="CPT_Solent_011"
+     CDS             complement(3993..4199)
+                     /locus_tag="CPT_Solent_011"
+                     /note="has signal peptide and extracellular/periplasmic
+                     C-term domain (interpro); No TMD (interpro; TMHMM);
+                     hypothetical conserved protein; only conserved in
+                     Salmonella phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative periplasmic protein"
+                     /protein_id="AXY86179.1"
+                     /translation="MFRYVLKLLAIIVTWLIIQTGYDLRVRSQCRDYQEITKTLTVYRN
+                     GVCYTPDVDGHFKIILDGLHIVR"
+     regulatory      complement(4207..4210)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_011"
+                     /note="CPT_Solent_011"
+     gene            complement(4271..4585)
+                     /locus_tag="CPT_Solent_012"
+     CDS             complement(4271..4573)
+                     /locus_tag="CPT_Solent_012"
+                     /note="Has GP55-NRDG T4 GP55.3-LIKE domain, but low score:
+                     0.001(interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86180.1"
+                     /translation="MDDRYEIAEQHGMSIEFIDWFWENKKASLGSVWFISMAAMWEGWK
+                     GALGNPVGEIIERPCDAELRAPGETYRYMRGKLKMERMPVGTKFYAHINHRPTNG"
+     gene            complement(4566..4768)
+                     /locus_tag="CPT_Solent_013"
+     CDS             complement(4566..4754)
+                     /locus_tag="CPT_Solent_013"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86181.1"
+                     /translation="MNKEFQINEIWLSPRGYFYKVIDIENKHAILKMGTHGLGRKIKRR
+                     KDTTKNWQLHTKVYNNG"
+     regulatory      complement(4582..4585)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_012"
+                     /note="CPT_Solent_012"
+     regulatory      complement(4764..4768)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_013"
+                     /note="CPT_Solent_013"
+     gene            complement(4856..5042)
+                     /locus_tag="CPT_Solent_014"
+     CDS             complement(4856..5029)
+                     /locus_tag="CPT_Solent_014"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86182.1"
+                     /translation="MTATRNWKCFIGMHQWDIFDRQKIEAYRPGEVRPYRIYTVYHQKC
+                     VHCGKLKVMQLG"
+     gene            complement(5033..5241)
+                     /locus_tag="CPT_Solent_015"
+     CDS             complement(5033..5227)
+                     /locus_tag="CPT_Solent_015"
+                     /note="only conserved in Salmonella phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86183.1"
+                     /translation="MGEEPTATPWCLRLSGEDLTTIYAYQERPRNMALGQYSQLFMLSS
+                     WLTVQRALEKIDYQSRRGY"
+     regulatory      complement(5039..5042)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_014"
+                     /note="CPT_Solent_014"
+     gene            complement(5220..5506)
+                     /locus_tag="CPT_Solent_016"
+     CDS             complement(5220..5495)
+                     /locus_tag="CPT_Solent_016"
+                     /note="only conserved in Salmonella phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86184.1"
+                     /translation="MKIKDHNCLLKDVLAFQIERNAQPEYAQNAIYCVHFKDTTFVKLY
+                     NTELMINALQRVLDTFDHYPDRLVTVQTKQQVLQSIRELLERVEHG"
+     regulatory      complement(5238..5241)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_015"
+                     /note="CPT_Solent_015"
+     regulatory      complement(5503..5506)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_016"
+                     /note="CPT_Solent_016"
+     gene            complement(5636..6202)
+                     /locus_tag="CPT_Solent_017"
+     CDS             complement(5636..6187)
+                     /locus_tag="CPT_Solent_017"
+                     /note="Only full coverage hit was for a bacterial protein
+                     (Dickeya chrysanthemi); N-terminal region (; first 50% of
+                     full protein) has strong homology to a phage ST9A protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86185.1"
+                     /translation="MKITKQELKDFGACQDGFKRFVNQTNNTDEPVDVVSLIGGCNTVS
+                     DLLWLAGKTLAKEKIVRFACDCALLNIEKIRPYTNDYNLIVDFLNTPTADAADAAYAAD
+                     AAYAADAADAAYAAARAADADAAAYAAYAAYAAYAAYAAARAADADAAAYAAYAAYAAD
+                     AADAADAAKINKLLVKLFSE"
+     regulatory      complement(6199..6202)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_017"
+                     /note="CPT_Solent_017"
+     gene            6376..6524
+                     /locus_tag="CPT_Solent_018"
+     regulatory      6376..6379
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_018"
+                     /note="CPT_Solent_018"
+     CDS             6390..6524
+                     /locus_tag="CPT_Solent_018"
+                     /note="No blast hits; No conserved domain hits (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86186.1"
+                     /translation="MVRYLVYELIITISMQSVKNYFNICKRLTLVVNCTEQLQMDRQA"
+     gene            6509..8284
+                     /locus_tag="CPT_Solent_019"
+     regulatory      6509..6511
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_019"
+                     /note="CPT_Solent_019"
+     CDS             6521..8284
+                     /locus_tag="CPT_Solent_019"
+                     /note="E-value of 0 for characterized ST9NA variant and
+                     those of other salmonella phages (blast)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="large terminase subunit"
+                     /protein_id="AXY86187.1"
+                     /translation="MNKFTGNIHKYPRWRDAYADDYRIWRKGQPRPDYKQCYIDRINLL
+                     NRMRTDRAIVPVLKKYYETNPVAFILDWAFTYDPRNVGTEFPPNMPFCLFERQIDMIQF
+                     VYEALEDKEKGLWEKSRDYGATWVACGLSVWAWLYRPGSSVGWGSRKETLVDKLGDPDS
+                     IFEKIRQIIRALPPELRPVGYREKDHLTFMKCINPENGATITGEAGDNIGRGGRKSIYF
+                     LDEAAHVDRPELIEASLSANTNVRIDISSVNGVGNVFYRNRKAGMEWEPGKKLPRGKLR
+                     VMVLDWRDHPAKDDEWYKREKQSFAEKGLQHIFAQEVDRDYAAAVQGVLIKAEWVRAAF
+                     DAFKDIAWRKANGLLTPTGQRIAGQDAADGGEDASALVIAHGVFLTHLQLDHRGAELAA
+                     PRMLTMANMLGVDEYWYEVNGVGTGVKVAANDRKDVLRFRVRPWLPNGKVVDPGGDIIG
+                     GTKPGDKDRKSNKDYFSNYKAQASWALRLRCQRIYKWYVEGQPQDPDEIILIDPSLENA
+                     QRLEAELSQPTYTSNGAGKIVIDKKPNGSKSPNFFDAAVIAMSPKRVDFVEEAFTGGVN
+                     PVGTPDYGDIF"
+     gene            8399..9111
+                     /locus_tag="CPT_Solent_020"
+     regulatory      8399..8403
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_020"
+                     /note="CPT_Solent_020"
+     CDS             8410..9111
+                     /locus_tag="CPT_Solent_020"
+                     /note="No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86188.1"
+                     /translation="MSDMTLVPTSGFGGEAGAAGLGGAVGGLIGSWFGNGWGGGGGWGG
+                     RGGVGAAEGVVVQNSLDTNAILQAINASSLANIQGQNGTNLTVERAAASTFNGLTQQNT
+                     QNLLANVQGFAGLNTQIQAGTNTVANAICASETAALTRSFQAQLAAEKCCCETNLNIER
+                     QAEATRALIRDQFAQSQAVLICDLKSQLQESRFANSQLAQTAQLNCKINQVEQLVNFKL
+                     PTPPTPPTGCC"
+     gene            9154..9534
+                     /locus_tag="CPT_Solent_021"
+     regulatory      9154..9159
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_021"
+                     /note="CPT_Solent_021"
+     CDS             9166..9534
+                     /locus_tag="CPT_Solent_021"
+                     /note="No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86189.1"
+                     /translation="MHYKPYYVIKKDDDDDEEEDVEIHHHHHYHHGHHPDMMGVYHHDR
+                     HASGSYEHGSVMANVHERLENPPHTWASYHDKPGGLMAIVEMEYRELMEEKAEGSHSGI
+                     KKELTDLAAACICALKKM"
+     gene            9540..10069
+                     /locus_tag="CPT_Solent_022"
+     regulatory      9540..9543
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_022"
+                     /note="CPT_Solent_022"
+     CDS             9551..10069
+                     /locus_tag="CPT_Solent_022"
+                     /note="Full ST9NA_13 protein matched to 70% length of this
+                     protein toward C-term end"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86190.1"
+                     /translation="MQNINTGMGVTQFNGMKPRSTINIGGVEWSLRRDATDSTTMFPHQ
+                     KVSWLNAGCEPMGDGRVHYCWIMGVIPPTPGTIERPINVMYVGFHQFKINIAPNSISQA
+                     DLDRMHVYVSDTSHFAGEFVSKFLGTEPEPVETRENISPWPPMIDKEVLNPREQPKVAK
+                     NKVNEDDEE"
+     gene            10072..10310
+                     /locus_tag="CPT_Solent_023"
+     regulatory      10072..10075
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_023"
+                     /note="CPT_Solent_023"
+     CDS             10083..10310
+                     /locus_tag="CPT_Solent_023"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86191.1"
+                     /translation="MVESLGLRAHVIVDEGHSQETIMKSAFNDFKAMGSMGGIMAVMTT
+                     GKLSQQQLDLAQRIAVKVIAVLGIKESEKI"
+     gene            10311..10485
+                     /locus_tag="CPT_Solent_024"
+     regulatory      10311..10314
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_024"
+                     /note="CPT_Solent_024"
+     CDS             10321..10485
+                     /locus_tag="CPT_Solent_024"
+                     /note="Only blasted to ST9NA_015; only conserved in
+                     Salmonella phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86192.1"
+                     /translation="MCCRTSCCLGIPATQFGLLQSQIAHTQAVFRGFTTPVIVPLQFSA
+                     FTFRPFVFW"
+     regulatory      10493..10512
+                     /regulatory_class="terminator"
+     gene            complement(10518..10805)
+                     /locus_tag="CPT_Solent_025"
+     CDS             complement(10518..10793)
+                     /locus_tag="CPT_Solent_025"
+                     /note="3 TMDs w/ signal peptide (N out C in, two
+                     extracellular/periplasmic domains, 2 cytoplasmic domains;
+                     interpro, TMHMM); hypothetical conserved protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative integral membrane protein"
+                     /protein_id="AXY86193.1"
+                     /translation="MEYMYIAFSLLLMIVVVITTEKKEQGVIGLAVALIRVLSIMLLVT
+                     SFSIAFDIVELQSDYYGFVKFQHQLTYAIIFGLGSVSLAVLSSFRR"
+     gene            complement(10799..10975)
+                     /locus_tag="CPT_Solent_026"
+     CDS             complement(10799..10960)
+                     /locus_tag="CPT_Solent_026"
+                     /note="Signal peptide w/ no TMD (1
+                     extracellular/periplasmic domain; interpro); hypothetical
+                     conserved protein; only conserved in Salmonella phages
+                     (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative periplasmic protein"
+                     /protein_id="AXY86194.1"
+                     /translation="MLIGYVLVLVLHGVVIEPVTERIMTFEQCQGAMQAEQAYNPGKIY
+                     GCAEVYRD"
+     regulatory      complement(10803..10805)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_025"
+                     /note="CPT_Solent_025"
+     gene            complement(10954..11295)
+                     /locus_tag="CPT_Solent_027"
+     CDS             complement(10954..11283)
+                     /locus_tag="CPT_Solent_027"
+                     /note="Full ST9NA_018 protein blasted to 50% of this
+                     protein towards N-term end"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86195.1"
+                     /translation="MNHVNAIRCNDEYQCSHCGKSWDIHEEAPDCKMTLVEMALYKTVM
+                     YFGLSVTIPEKYTVITTDADGEVYAWENDPYISGSSWYYPDIPFVHVATVNLHGLNWRE
+                     TLRKC"
+     regulatory      complement(10972..10975)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_026"
+                     /note="CPT_Solent_026"
+     regulatory      complement(11291..11295)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_027"
+                     /note="CPT_Solent_027"
+     gene            complement(11301..11512)
+                     /locus_tag="CPT_Solent_028"
+     CDS             complement(11301..11501)
+                     /locus_tag="CPT_Solent_028"
+                     /note="No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86196.1"
+                     /translation="MKSTMKRMVRAYDKELKIFLDLRNSKKKRRKQARECAKEWHDDNT
+                     LIQCQEDADELARDNIYYLVN"
+     gene            complement(11504..12219)
+                     /locus_tag="CPT_Solent_029"
+     CDS             complement(11504..12205)
+                     /locus_tag="CPT_Solent_029"
+                     /note="No hits for ST9NA; Most blast hits have coverage of
+                     60% or less"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86197.1"
+                     /translation="MNNLLLNKKIVKMQIASDKEALLFVTDDGQQLIVRVDAECCSHTW
+                     IESVELPALGFPFTVIACDDLDMNKEPLENEEYDYLQFYGAKITTDKGDLVIDYRNSSN
+                     GYYGGSIVWPGEDHFYGGVFGQNISDEEWEDIQDAGGGVIIMNQFKGTQGPWKVVINDD
+                     NTPDIVSDSGVEIAYTPTYNGDKTEQLANARLIAAAPELLEVLQLAIAKRNSEYEIYMK
+                     MKAIVAKAIGE"
+     regulatory      complement(11509..11512)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_028"
+                     /note="CPT_Solent_028"
+     regulatory      complement(12215..12219)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_029"
+                     /note="CPT_Solent_029"
+     gene            12411..13779
+                     /locus_tag="CPT_Solent_030"
+     regulatory      12411..12414
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_030"
+                     /note="CPT_Solent_030"
+     CDS             12424..13779
+                     /locus_tag="CPT_Solent_030"
+                     /note="E-value of 0 for ST9NA_022 variant and those of
+                     other salmonella phages (blast)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="portal protein"
+                     /protein_id="AXY86198.1"
+                     /translation="MADEQFEQLAVAGYSRTGNQVNDDFLPKLNGKQGRRILRQMAEND
+                     ETIGGVLFAMSSVYRSVQWIFDPSDKDDAEAVRYSEWLQDVIENKMGDPRGALPDDTWS
+                     AFVQTWIDVDVFGWGWYDVWVKDLDDGSVGIARLVPVAAETLAGWDIEEPTGYVRGIYQ
+                     RSPNQGTTTLITRDRSLHLISSPNKGNPEGLSLLRTAYRPWYYKKVNMEIESILAERGT
+                     GFPVITVNADIKKAANDPNVPEPQRQAAQAMIDNYENIVANIKRNEQSGLVIYSKPYIT
+                     GYDNETGVTTYGGEQQVKLEFITPNQTSSVDIDRTIKRLDTSIARALLADFMFFGTGGN
+                     TGNNANLGNRTELWIRAMQSRIDSIIECVNRQLIPQLWSLNAFPDEYRPSIRAGSISKD
+                     SIETLTTALARLAQAGAPVFPDPELQEFVYKEAGLPTKGIDKTGDGLPSIED"
+     gene            complement(13812..14161)
+                     /locus_tag="CPT_Solent_031"
+     CDS             complement(13812..14147)
+                     /locus_tag="CPT_Solent_031"
+                     /note="only conserved in Salmonella phages (NR)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86199.1"
+                     /translation="MRFEILELVKYDKAAAEILVDAVGDNEVKFKLLNKVWKYIITQTV
+                     TESASQFKEVVTDMYAFTGDDEIKLQLLEKTLDRVINTSYPLPTRVQTAIDEADKLLPI
+                     VQPPVVK"
+     regulatory      complement(14158..14161)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_031"
+                     /note="CPT_Solent_031"
+     gene            complement(14163..14519)
+                     /locus_tag="CPT_Solent_032"
+     CDS             complement(14163..14507)
+                     /locus_tag="CPT_Solent_032"
+                     /note="1 TMD w/ signal peptide (1 extracellular/periplasmic
+                     domain, 1 cytoplasmic domain, N out C in; interpro); 3 TMDs
+                     (N out C in; TMHMM); hypothetical conserved protein;
+                     putative transmembrane protein; putative transmembrane
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transmembrane protein"
+                     /protein_id="AXY86200.1"
+                     /translation="MTFWIFFILFCVVIGGIAKHSGRNPGKWFFISLLTSPVIGGVLLT
+                     IFWLFKGTLTPEQPAIVTTGMFSNYMAAYVYVSKHYTIDNDHKASAAADLFKYATCRDD
+                     CDKLIAKYIN"
+     gene            complement(14513..14775)
+                     /locus_tag="CPT_Solent_033"
+     CDS             complement(14513..14764)
+                     /locus_tag="CPT_Solent_033"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86201.1"
+                     /translation="MTIFKNAVGDTIAYLPKVVVTDPSCVDYPHSDQSEATYNDLCGDI
+                     IRGCDIGIEQLQKMRDDYEKRMVQAAIGLPPVLDTPKG"
+     regulatory      complement(14516..14519)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_032"
+                     /note="CPT_Solent_032"
+     gene            complement(14761..15099)
+                     /locus_tag="CPT_Solent_034"
+     CDS             complement(14761..15087)
+                     /locus_tag="CPT_Solent_034"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86202.1"
+                     /translation="MDTRNLLINAARAAEIQGKYYIAYGEREANEGIDIGNSRLWNPIT
+                     YNEDAFSLMITLYMDLYLHDSGVTVNNPDTGISYTQPINHGEDREKATRLAIVNCAAIV
+                     GEYI"
+     regulatory      complement(14772..14775)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_033"
+                     /note="CPT_Solent_033"
+     gene            complement(15087..15603)
+                     /locus_tag="CPT_Solent_035"
+     CDS             complement(15087..15590)
+                     /locus_tag="CPT_Solent_035"
+                     /note="has dUTPase_1 and dUTPase-like domains (interpro);
+                     good blast hit to characterized ST9NA variant and those of
+                     other Salmonella phages"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="deoxyuridine 5`-triphosphate nucleotidohydrolase"
+                     /protein_id="AXY86203.1"
+                     /translation="MTNLYVKKLTPLAELPTRATLHSAGLDVRACLWEQTVTVFTESGV
+                     KLEREVVAGIIAIWPGDRVMIPTGMKMSVDADYCIKLYPRSGISLKHGLSLINCVGIGD
+                     RDYKEEYYVTLTNHGQKLQTIADGERVCQLMVERVEPVNLVEVDELPDVDSERNGGFGS
+                     TGNM"
+     regulatory      complement(15096..15099)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_034"
+                     /note="CPT_Solent_034"
+     regulatory      complement(15600..15603)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_035"
+                     /note="CPT_Solent_035"
+     gene            15692..16030
+                     /locus_tag="CPT_Solent_036"
+     regulatory      15692..15695
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_036"
+                     /note="CPT_Solent_036"
+     CDS             15704..16030
+                     /locus_tag="CPT_Solent_036"
+                     /note="Only good blast hit for CPTSasha_23; No good blast
+                     hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86204.1"
+                     /translation="MFEQQHLNTKAVLIPKMKLSQNMKKWEDFDDAPDWATYIVLNNVT
+                     NTFAWSDGSMYAPILRNPPQGIHKVDDFEIVAKRPAGPAPDVTVTRVNDDRLQQCFTPV
+                     TNVM"
+     gene            16216..16411
+                     /locus_tag="CPT_Solent_037"
+     regulatory      16216..16220
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_037"
+                     /note="CPT_Solent_037"
+     CDS             16229..16411
+                     /locus_tag="CPT_Solent_037"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86205.1"
+                     /translation="MNGEQAFDLMVKHNIIVIHCDRDQIVFTDDLRYEESYDGDKRSAT
+                     LRLIERVARDRGEQL"
+     gene            16395..16596
+                     /locus_tag="CPT_Solent_038"
+     regulatory      16395..16399
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_038"
+                     /note="CPT_Solent_038"
+     CDS             16408..16596
+                     /locus_tag="CPT_Solent_038"
+                     /note="Has domain similar to NinH from Bacteriophage 933W
+                     (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="NinH"
+                     /protein_id="AXY86206.1"
+                     /translation="MTHTIHELLPTTRGNITELARILDCDRGTLRKYIKDKKGEFHVIV
+                     NGKLFVKPGFKGRIKHD"
+     gene            16575..16729
+                     /locus_tag="CPT_Solent_039"
+     regulatory      16575..16578
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_039"
+                     /note="CPT_Solent_039"
+     CDS             16589..16729
+                     /locus_tag="CPT_Solent_039"
+                     /note="Has coil domain spanining first 85% of protein
+                     length (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86207.1"
+                     /translation="MTKDEQLLRDLEQDYERAQTAIAYLEEQIREVKNRLQGTEKRVVQ
+                     R"
+     regulatory      16751..16773
+                     /regulatory_class="terminator"
+     gene            16769..17739
+                     /locus_tag="CPT_Solent_040"
+     regulatory      16769..16772
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_040"
+                     /note="CPT_Solent_040"
+     CDS             16780..17739
+                     /locus_tag="CPT_Solent_040"
+                     /note="good blast hit to characterized ST9NA variant and
+                     those of other Salmonella phages; has Phage head
+                     morphogenesis domain (<50% coverage; interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="head morphogenesis protein"
+                     /protein_id="AXY86208.1"
+                     /translation="MAVRDPYPDIADKYDARIREALNIVWENVRRSESLANLEYIIETQ
+                     GISGLLPILDTLPDELSAELRPVIESAISESGRVVIQVLPKAAVTAPIVFSLVTPQVST
+                     YINNYVGQLIREVSDETVKAVQIAVNQGVVTGRNPRQIARDFRSSIGLTTRQEMTVQRL
+                     RASLEAGDVGYVNSLTTVTDSAKNAVSAGKLSQAKIDQIVEQTRLRYVKQRTETIARTE
+                     SLRAVSVGQDQAIRQGQITGAISNELLKRWLYRKDGRTRDAHISTGETNGWIPMNRPFS
+                     TPLGPLMFPRDPNGSASNTINCRCRVQYSLPEDIGSLG"
+     regulatory      17840..17861
+                     /regulatory_class="terminator"
+     gene            complement(17880..18082)
+                     /locus_tag="CPT_Solent_041"
+     CDS             complement(17880..18071)
+                     /locus_tag="CPT_Solent_041"
+                     /note="No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86209.1"
+                     /translation="MGMKNIDYKGHSNLADMISTHVHVYRDLLQKQRDEDFENHEYWEH
+                     ELKALADIEHAVNQELEE"
+     gene            complement(18074..18300)
+                     /locus_tag="CPT_Solent_042"
+     CDS             complement(18074..18286)
+                     /locus_tag="CPT_Solent_042"
+                     /note="Has signal peptide w/ 0 TMDs, 1
+                     extracellular/periplasmic domain (N in C out; interpro);
+                     hypothetical conserved protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative periplasmic protein"
+                     /protein_id="AXY86210.1"
+                     /translation="MSKLTVEQAVVLSGFTGLLHGSFSKFHEDLEKRMGRPVFSHELGS
+                     KEFTAKVKELYRDDFIAMQPDNAGE"
+     regulatory      complement(18079..18082)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_041"
+                     /note="CPT_Solent_041"
+     gene            complement(18283..18570)
+                     /locus_tag="CPT_Solent_043"
+     CDS             complement(18283..18558)
+                     /locus_tag="CPT_Solent_043"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86211.1"
+                     /translation="MCDCIKKVGDELQKRLMEKVPAGSEVSTNLFDKVGWDNQCFGIES
+                     GKTYVMLKYRLAYKARKVNGELAKNFTRLETNMKMSYCPFCGEKQE"
+     regulatory      complement(18297..18300)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_042"
+                     /note="CPT_Solent_042"
+     gene            complement(18563..18864)
+                     /locus_tag="CPT_Solent_044"
+     CDS             complement(18563..18853)
+                     /locus_tag="CPT_Solent_044"
+                     /note="1 TMD w/ no signal peptide, 1
+                     extracellular/periplasmic domain, 1 cytoplasmic domain (N
+                     out C in; interpro, TMHMM); No valid structural regions
+                     found w/in 400 bp upstream of N-term; potential
+                     localization signal in this region; No hits for ST9NA;
+                     putative transmembrane protein; putative transmembrane
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transmembrane protein"
+                     /protein_id="AXY86212.1"
+                     /translation="MDNSYRKDLHTWFGLSYSAFLVMPRVAMMQMPKEWQEQMSELLHQ
+                     YDETINTGAFGVHSCFVTVKDANNKFMKMPEQLINYRHPQPETIAVLLNKE"
+     regulatory      complement(18567..18570)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_043"
+                     /note="CPT_Solent_043"
+     regulatory      complement(18861..18864)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_044"
+                     /note="CPT_Solent_044"
+     gene            19239..19662
+                     /locus_tag="CPT_Solent_045"
+     regulatory      19239..19242
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_045"
+                     /note="CPT_Solent_045"
+     CDS             19252..19662
+                     /locus_tag="CPT_Solent_045"
+                     /note="Has XkdF domain w/; 90% coverage (no functional
+                     info; interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86213.1"
+                     /translation="MIEVKVNKVDPQLRMVFGWGSICKKRNPETGQLEIYTDTDNEQFP
+                     EDVTLKAWLDFMNGDQRIMDNMHNEQPVGKVVFAFPMTEDIAACFGLVEKLDQTGVIVG
+                     TLITDDDVLKKFQEGTYTGYSIGGTAFYEDVE"
+     gene            19648..20927
+                     /locus_tag="CPT_Solent_046"
+     regulatory      19648..19651
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_046"
+                     /note="CPT_Solent_046"
+     CDS             19662..20927
+                     /locus_tag="CPT_Solent_046"
+                     /note="Has coil domain (interpro); E-value of 0 for
+                     STN9A_038"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86214.1"
+                     /translation="MRTDGTTHLRRAKSMKIGFLSGVTKPAHEGANALMLKSHSEPPAV
+                     VLLKSTFSAALAEKELEQKVRDFLSNSWMLNDALYESAEDIAKDDSITDKQAALRDAVN
+                     EYIITLQQAAGISLNKAKEGKTEDGKVFPASDYAYVPDPEKPSTWKLRLTVTPGGEPDA
+                     RIVGAALAALGPGYRGNKVEIPEADLAGVKNKVRSAWKKLHPDQEVPQVLKTAEEIEMS
+                     ELELEKYKALAEMNDVHKAYHNSLPESDQEAFRKMDATARDALVTMAKQADESFTTIAG
+                     QVVQKSVAGPMYDVLKSQDEQLRKAQTEAALAKAEKTVNTDFAHIPGEMVQKTQMVMTL
+                     ERLPEADRNFLVEKLKQADELWKARKEPAAPNGSGKGSSALEDMINEWLKANPGKTRTQ
+                     AMQAVSATKKGQEAIEAMRGDE"
+     gene            20914..21337
+                     /locus_tag="CPT_Solent_047"
+     regulatory      20914..20918
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_047"
+                     /note="CPT_Solent_047"
+     CDS             20927..21337
+                     /locus_tag="CPT_Solent_047"
+                     /note="Has signal peptide, no TMDs, 1
+                     extracellular/periplasmic domain (interpro); good blast
+                     hits to characterized ST9NA variant and those of other
+                     Salmonella phages"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major virion structural protein"
+                     /protein_id="AXY86215.1"
+                     /translation="MAKNSKIYWNYERPTRAVASVAISAGVGLVLDTSLGDTNQCVPKY
+                     KLPTAGGRIDGVAVDDATAGVFFDLVNEKEKFVPVKASATFGTGVELAVGADGRFQTAT
+                     AEQLVVAISQTGATAENQVVTALLIAPYSKGA"
+     gene            21328..22360
+                     /locus_tag="CPT_Solent_048"
+     regulatory      21328..21332
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_048"
+                     /note="CPT_Solent_048"
+     CDS             21341..22360
+                     /locus_tag="CPT_Solent_048"
+                     /note="has phage-related protein like domain (>90%
+                     coverage; interpro); good blast hits to characterized ST9NA
+                     variant and those of other Salmonella phages"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major capsid protein"
+                     /protein_id="AXY86216.1"
+                     /translation="MSYKQNFRDVGAPDTFLSNFSVSYWQDTSLFVGTRYFPVVPVNQA
+                     AGKFLTYPKGYFGRPVNSKRAEDGVANTIGYKTKNQGYTVDDDAIRIFISDKKRANVQN
+                     GQQLDMEASAVTTDALLINKEVDFAEKFLTAGKWGLDFQGKDSSPSTGEFLKWSNANAD
+                     PIGDILPRRVAFSLASGGRRWNKALMTLDVYDALTRSPAVIDRINGGSTTQNPGIVTKQ
+                     ALAALLEVDELEIMQSVVNMAADGVEDGDGNPLSDFQFAKTGVLMLNYVEPTVGNMKPV
+                     AAAGFVWNEFIGLGVNNGPSIRTYPGVEGRRGNFVEAEFAIDVQMVAPDLGVLFYDAV"
+     gene            22411..22776
+                     /locus_tag="CPT_Solent_049"
+     regulatory      22411..22415
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_049"
+                     /note="CPT_Solent_049"
+     CDS             22423..22776
+                     /locus_tag="CPT_Solent_049"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86217.1"
+                     /translation="MRNSYDPSLKYVFTRPMLWNGKQMSAGDKVSTSKATPAVLNALVR
+                     MRHIEPATATVEEPVIVATEESASTTAAEIRRDAPKTYNVYVMGMPMNSESFSSKSAAA
+                     EWCESQGLTYNYS"
+     regulatory      23192..23210
+                     /regulatory_class="terminator"
+     gene            23247..23667
+                     /locus_tag="CPT_Solent_050"
+     regulatory      23247..23250
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_050"
+                     /note="CPT_Solent_050"
+     CDS             23257..23667
+                     /locus_tag="CPT_Solent_050"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86218.1"
+                     /translation="MAITVEGIRYLISVPDVTDEQIQWYIDNGYTNPLSICVALCDYMA
+                     SIASNDTDIKVGPISLSSSQSADAWNKLKKDFILRINTGADSGGGLLGSFMGVGGATLT
+                     GAGMQPAIQRGQFDNPPVTLESGGRALNEGER"
+     gene            23655..24041
+                     /locus_tag="CPT_Solent_051"
+     regulatory      23655..23658
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_051"
+                     /note="CPT_Solent_051"
+     CDS             23667..24041
+                     /locus_tag="CPT_Solent_051"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86219.1"
+                     /translation="MADKRQSVLNGVTRALAEVGEDLTVKRVTTVPNPSNPTLPGTTVT
+                     ESHTCRGYIYPLEKWDPTTMTRITTTMVIMDSQSFEPRFVPDRGDIVVDERGKEYRLLD
+                     RQNPRLLGDDMAFIHPVGAA"
+     gene            24030..24474
+                     /locus_tag="CPT_Solent_052"
+     regulatory      24030..24033
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_052"
+                     /note="CPT_Solent_052"
+     CDS             24043..24474
+                     /locus_tag="CPT_Solent_052"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86220.1"
+                     /translation="MAKANVNDINRITGVFKDIKADLRDFTDREVIRYVLTLRNILVSE
+                     PPDGTPVDIGWASNNWWFDQGQPANSPDTPTGNVEASKARIEQDTVTISSIKVNGQELH
+                     ITNNVPYIGVLNGGSSTQTPSGFVERAILKAGIMVRFNQ"
+     gene            24459..24896
+                     /locus_tag="CPT_Solent_053"
+     regulatory      24459..24463
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_053"
+                     /note="CPT_Solent_053"
+     CDS             24474..24896
+                     /locus_tag="CPT_Solent_053"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86221.1"
+                     /translation="MTLSDVSGIVYNRVLANLPVEITPDRFTIASGQLPDDTTEKPGLI
+                     LTHNPGPWTITTLGGEGVCRRRLRTGNVFLQVRTPAQYGMDTLSIDIADRLAKLFEGIW
+                     QDRPLIYTSVDIRHQGRDNAWFLTNVVLSYEYEEIY"
+     gene            24920..26390
+                     /locus_tag="CPT_Solent_054"
+     regulatory      24920..24923
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_054"
+                     /note="CPT_Solent_054"
+     CDS             24933..26390
+                     /locus_tag="CPT_Solent_054"
+                     /note="good blast hits to characterized ST9NA variant and
+                     those of other Salmonella phages; Located near other tail
+                     genes"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major tail protein"
+                     /protein_id="AXY86222.1"
+                     /translation="MAESIFKCSQTPAADVNATRLSVAKVCEPVSGTPWTVQQPNEISS
+                     YSADITKTQRTPISTDRSARKGTVTNVEVAPGFQTDLTLDTFRYWGDGFLYSKWVGAGA
+                     IDIDVTSVDTDAYNVATLDATLPEGALVYATGFTLAANNGLKTVGADSTTTAINVSGLT
+                     AEASPPAEARLYLVGYAAASGDIAVNSNGQLTSATLDFSTLGLVPGQYIYIDGLTQSVT
+                     SKMARVTMVGDHVLTLANSEFTTEEGTGKTVRLFVSSFVRNVPVDSAEFVKTEYTMEAR
+                     YNTTPVIYEYARAVAANQMTINASLTEKMTMDLTFVAQDLSAPSETALPGSGYIEFVAN
+                     EAYNTVTNLNRVRLTGIDDSGLSTFLKDVTVTVNNNVSGENVLGVMGAAFTNVGNLEIT
+                     METETVMTDGAVLAAIRNNATVNFELAGVNGDGAIVVNIPAMTLGDGSKNLATGEKVKV
+                     TVSGNAHEEESIGFMIGFSLFPYLPTA"
+     regulatory      26390..26439
+                     /regulatory_class="terminator"
+     gene            complement(26439..27073)
+                     /locus_tag="CPT_Solent_055"
+     CDS             complement(26439..27062)
+                     /locus_tag="CPT_Solent_055"
+                     /note="No hits for ST9NA; 1 of 2 major blast hits matches
+                     uncharacterized rhizobium protein (e-29)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86223.1"
+                     /translation="MAIINMGWHSSVFEGNVKLLEGAYSPIHRNDIGGDYPPSYFLYET
+                     DHGCCIKERERNGYHDSDFEMLIWNPETKSASWYTFATTRGWCYPCYGSRPDATPEVLE
+                     AYNIYEQQQEEKRQRYCKIKRVNKQRKLNAQFRLIVREFGVDREQVEKLYKLYHPDMFP
+                     VFCKLLNSNLRSDFRKSLRKQLIDWLKGNGKYDKPFSPKQIQYV"
+     regulatory      complement(27070..27073)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_055"
+                     /note="CPT_Solent_055"
+     gene            27190..27919
+                     /locus_tag="CPT_Solent_057"
+     gene            27190..27623
+                     /locus_tag="CPT_Solent_056"
+     regulatory      27190..27193
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_056"
+                     /note="CPT_Solent_056"
+     regulatory      27190..27193
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_057"
+                     /note="CPT_Solent_057"
+     CDS             join(27201..27617,27617..27919)
+                     /locus_tag="CPT_Solent_057"
+                     /ribosomal_slippage=""
+                     /note="Tail measure chaperone frameshift protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail measure chaperone"
+                     /protein_id="AXY86225.1"
+                     /translation="MSKFDHLKKALSPLVLKSSAELILNENFSITVLNLNTANQVYNAT
+                     VADYVKQNGVLSENFFEKLWNQEYTPEGIKFVANVLMLDWKLIGEDDKPEPFSVEEAIE
+                     LLSDERFGQVIYSRVIQFAINSAFFQDEWEKQIEKKLIDFLLWNDKTDGDDLDWVTQGA
+                     AARGISVPVVVQKRPELRPDAIFYWNAFLDLIDAEWVACERYARVYNVDVQFLWKLLIA
+                     LRSARVAEMKKNKHKPG"
+     CDS             27201..27623
+                     /locus_tag="CPT_Solent_056"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail measure chaperone"
+                     /protein_id="AXY86224.1"
+                     /translation="MSKFDHLKKALSPLVLKSSAELILNENFSITVLNLNTANQVYNAT
+                     VADYVKQNGVLSENFFEKLWNQEYTPEGIKFVANVLMLDWKLIGEDDKPEPFSVEEAIE
+                     LLSDERFGQVIYSRVIQFAINSAFFQDEWEKQIEKN"
+     regulatory      27910..27927
+                     /regulatory_class="terminator"
+     gene            27979..30906
+                     /locus_tag="CPT_Solent_058"
+     regulatory      27979..27982
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_058"
+                     /note="CPT_Solent_058"
+     CDS             27991..30906
+                     /locus_tag="CPT_Solent_058"
+                     /note="has N-term tape measure domain TIGR02675 (interpro);
+                     good blast hits to characterized ST9NA variant and those of
+                     other Salmonella phages"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail tape measure protein"
+                     /protein_id="AXY86226.1"
+                     /translation="MAQYPIDIKIDTGSADRNLNNLNSQLDQTEKSTIAAAQAANQLSV
+                     VEQQAAKAAQQLAQQQANQAAKAVAVARATREAAQEQSRLLATQGAAARAAGQTVNNQQ
+                     KFAELAKIIKQATADEKKAIDDLTNSLKKLDNQQNNTNQSTQKTTGALETLVTGAKAFV
+                     GLQIAGSLYDWGKAFVDTATKVELLQSRINLYTSTSVESQQIFAQLVQQANRAGTDIDA
+                     VANSFQRFAAAGKDAGISNQVILQFTDNLQKMARVSGASSAEASAAIYQLSQAFASGRL
+                     QGDEFRSVSEQLPTVLQVLAKQMGVTTGELKQLGSDGEITRDTLLLLNNATDEISAQFD
+                     KLPRSVDQSATALRNNLSVAIAELDQQIGASKFLAKFLDLLAGGVSGTTELIKAAAGAN
+                     KLAQATNNLNSVTAKREANLKEIADLEAQIQRGYTTQSIGGYTKFVGDTSAAQKKLNEL
+                     KKLDVQLTKQQAEAQRGVVQATPLGKGVAENLANQASTLQASITAAQAAGRPDAESAKQ
+                     IKNLKEQITYTQALADGNYELAASQKLGNKATKEQIADYAALLKQQAEYKENQKNQKKL
+                     ASAEASAAKRAQKELERNQAANQKYLKTLQDKINAGNYDVQLAREQVQIALTQGSSVEQ
+                     LTATYQKEYQVRQQLTLASQQAEAQSRLNKDATDAERAAVDAHVAALQRQQQIAQLSAD
+                     VKQVDIDVKAQLNPYQSQIDQVNQQEATRLSIIQTAREQDLINEQQYQDMKTQIQQAGE
+                     QARTNLANANYSLLLQSSADFLGQMAAGLAQSKGEQSNAYKAMFALSKAFSIAQASINL
+                     WTAVSQAMALPFPANIPFIAQALSYGTSVLGNIQSVAATGFATGGYVKGPGTGQSDSIN
+                     ARLSNGEFVSTKQATSRYRSTLEAMNRGTYTPGSEGGSSPNIQVHNYGGERVQVKQGLT
+                     RDDVVLIIGEEFPRQSAAQWNDPYSQTNKAFRSNYDANRKI"
+     gene            30895..31409
+                     /locus_tag="CPT_Solent_059"
+     regulatory      30895..30898
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_059"
+                     /note="CPT_Solent_059"
+     CDS             30906..31409
+                     /locus_tag="CPT_Solent_059"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86227.1"
+                     /translation="MSNTDDLPRLEYGAKMVLPERDNYSYSPPWGVTKSDISGTLSRLG
+                     RSAFGGPAQVSCTIQLYSPAMLQWWDDFYNLEIAEGSKRFVMQLFVNGLIQEHVVQIVS
+                     NPSSSVVGWKGSVDLQLQAVPVIDRCAMASRLLITKCQGDYAACYLKEIIDTGLLLNNA
+                     WTPE"
+     gene            31396..31912
+                     /locus_tag="CPT_Solent_060"
+     regulatory      31396..31398
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_060"
+                     /note="CPT_Solent_060"
+     CDS             31406..31912
+                     /locus_tag="CPT_Solent_060"
+                     /note="No conserved domain hits (interpro); Good blast hits
+                     to characterized variants"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative enolase-like protein"
+                     /protein_id="AXY86228.1"
+                     /translation="MKDELRELLTVATTGKGVVDGVKLNHSSWPNPLYITSVYPGFIAV
+                     HEDGKEYEYEYVPMSVKKANKQNDLSQDYSFTIQDLNEVVGVYLDLIPLDSNEKPSVEL
+                     RTFVYREDGSMSDIQDGPYLLESGDITTEPQGCTFTASPPITNFAGTGELYTFERFPTL
+                     LAYAT"
+     gene            31967..32268
+                     /locus_tag="CPT_Solent_061"
+     regulatory      31967..31969
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_061"
+                     /note="CPT_Solent_061"
+     CDS             31975..32268
+                     /locus_tag="CPT_Solent_061"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86229.1"
+                     /translation="MHNYPHVLKTVSGDEWDIAFVRWMRKRFSPITTPEQGALVLMKNR
+                     YSGGFHVGVWDCGMVHHCYQPPGDSPGQTIRSPLSIIKTAHKEITFWRMKSV"
+     gene            32249..34789
+                     /locus_tag="CPT_Solent_062"
+     regulatory      32249..32252
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_062"
+                     /note="CPT_Solent_062"
+     CDS             32261..34789
+                     /locus_tag="CPT_Solent_062"
+                     /note="good blast hits to characterized ST9NA variant and
+                     those of other Salmonella phages; Located near other tail
+                     genes"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail tip protein"
+                     /protein_id="AXY86230.1"
+                     /translation="MSKVIYHTNPVEHADNVDFGEWMLKRWPVGTVRPRGLLIYKNDEN
+                     ITQKWVTDPSVLTDPDAVYHIYELPKGGVVSAITKVISTILNPILKLFMPNTSASANLK
+                     NSRSASSNNALQGRTNASRPGERISDIRGRVLAYPDLLMDYRIFIDRTEYEVQFLCLGA
+                     GEYEVEDVRDGITPAVNISGEKLDFYKKGNAPGYGSPYMNIGGAIDINTFPIMVAKSSN
+                     EADGSEVKPPNYADISKASFKVYSTGEIDTTISSDDNTTIDWSERAPIGSKIRLSQFYS
+                     FTPNTLPLNTYVRNDLSGDYDVIYAGENTLIIDTTGREGWDALSESGQAAYTQAYLRND
+                     GYWELETTKGSGSILYKFSPSLDSTTPYIVGPYLIDSADKLMINLYAQNGVYKTDGDIY
+                     PFTCDFQVVLSDPNGVKANVTHSMSVSGRYTEAVGSSLIVNNPFDGPVNVSVRRLSNTD
+                     KDFEGSVVDNIKWRDLYAITNVSPRSYGDVTLIHTVTKATNAALKQKERKLNMIATRVY
+                     NDVASSNFADVVMSMHTDPLFGRRTLDTIDRDALYAVQAQILEYFGDQRTIEVGYTFDN
+                     NSTTYEEGLDTICNTVNIKPYQIGSVLYFWPELPQEQSAMQFGHAFKIPDSDKRTRSFA
+                     PPKEYTGVQVKYFDHDEKSYLYVTKGEETNLNKIDLVACQSRYLANIRANREMNKLRYQ
+                     RITHECTALSIGLQATPGMRVDMIDNTRMKQHEGIVVDVDGLTLILSDPVTFTTGNTYS
+                     ITLTHRLGTLENIPVTAGDDEFSVVMAYQPSEEIYTGWLQDRTTYVIRTDDERSKLAML
+                     VQSMEPSGRDNNYQVGLTCINYDARYYQDD"
+     regulatory      34746..34773
+                     /regulatory_class="terminator"
+                     /locus_tag="CPT_Solent_062"
+     gene            complement(34825..36886)
+                     /locus_tag="CPT_Solent_063"
+     CDS             complement(34825..36876)
+                     /locus_tag="CPT_Solent_063"
+                     /note="Contains Tail Spike head-binding domain (interpro);
+                     has Pectin lyase fold/virulence factor domain at c-term
+                     (interpro); has several parallel beta helix repeat domains
+                     (interpro); C-term region has high homology to epsilon15
+                     tail fiber (blast); N-term region has high homology to
+                     ST9NA tailspike protein (blast)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail fiber/tail spike"
+                     /protein_id="AXY86231.1"
+                     /translation="MANCNDYISADDLKTGKQAILHIEHVAKSRDAAGNPALEVTDTIR
+                     GESVTNKTLDGLKNLYNQAISQVGYITLKSFQTGAPLPGNQLTLPNQVLQDETNGEYYR
+                     WDGDFPKTVAAGSTPATTGGVGSGAWLSVGDATLRDELNNEGVINFSHTDTYGNDSVGA
+                     HLQNVVYPTDAPFNAATDGVTDATVAIKSAIAHCISKGKKLVLNHLFMITDTLVISDGL
+                     HVKCLTGDSGVKSDVPAGKYAVKITGANSGWFGGKILGKNLPDSTTVRQDGVLFDENAA
+                     YCFITGTEVTGFFAKGLHTSDADGVGYGIYDKGHGTVIAKCYANSKFCVALGGTEGRVI
+                     KNHITNNYLTSGEARPWSLASNYWDGIVSENAHRYVIAFNEVSACGQSGIYFGGNGGYS
+                     TDNIIVNNTVYNCWNRGIDMGLFSEKSATNDVLRNIVKGNNTYNNRENNIWLAGVSNCS
+                     VVGNTSWFDANYDVIFAGYPGGHICISLASGANGEACVGNTIDSNTCIDPRGNAGITVP
+                     TGATGNVFGSGNNLSQAGDIYIASPDLITSNRFELSVTGSFTPVLLPASGSISLSSSST
+                     GVFRATGKRIDFSITVNVSSISSPSGMLNIAYLPGMSGKTSSISMFIVDYWNNIILSNG
+                     VIPLASLNLSNQDQIAIYRTDGGRVLYDFSSLLTSTSSFVIKGFVDFN"
+     regulatory      complement(36883..36886)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_063"
+                     /note="CPT_Solent_063"
+     gene            36890..37231
+                     /locus_tag="CPT_Solent_064"
+     regulatory      36890..36893
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_064"
+                     /note="CPT_Solent_064"
+     CDS             36905..37231
+                     /locus_tag="CPT_Solent_064"
+                     /note="adjacent to endolysin; good blast hits to
+                     characterized variants of other Salmonella phages; 1 TMD,
+                     no signal peptide, 1 extracellular/periplasmic domain, 1
+                     cytoplasmic domain (N out C in; interpro, TMHMM)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative holin or antiholin"
+                     /protein_id="AXY86232.1"
+                     /translation="MSENPLLKYWPIITFIVGGAVGYGVLQNQVNATAKDVADTKTQAN
+                     DAYNLAKRVESRVDVHDVKIEYQATQNAEILASVKELTQSTNDLKVVIESLKVEQRRTG
+                     SNQK"
+     gene            37215..37611
+                     /locus_tag="CPT_Solent_065"
+     regulatory      37215..37218
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_065"
+                     /note="CPT_Solent_065"
+     CDS             37228..37611
+                     /locus_tag="CPT_Solent_065"
+                     /note="D-alanyl-D-alanine carboxypeptidase domain
+                     (interpro); good blast hits to characterized ST9NA variant
+                     and those of other Salmonella phages; Located near
+                     holin/antiholin genes and spanin complex"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="endolysin"
+                     /protein_id="AXY86233.1"
+                     /translation="MNKFSQRSENNLKGVNADLVKIVRRALQLSPVDFGITEGLRTVER
+                     QRQLVAAGKSQTMNSRHITGHAVDVFAYPTSAGSWEWKYYEQIAAAFKQAAKELNIPVE
+                     WGGDWKTLKDGPHFQLPHATYPA"
+     gene            37610..37852
+                     /locus_tag="CPT_Solent_066"
+     regulatory      37610..37612
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_066"
+                     /note="CPT_Solent_066"
+     CDS             37622..37852
+                     /locus_tag="CPT_Solent_066"
+                     /note="adjacent to endolysin; good blast hits to
+                     characterized variants of other Salmonella phages; 2 TMDs,
+                     no signal peptide, 1 extracellular/periplasmic domain, 2
+                     cytoplasmic domains (N in C in; interpro, TMHMM)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative holin or antiholin"
+                     /protein_id="AXY86234.1"
+                     /translation="MDKFSILRNTTGGISLSRAQAALGFLVVTGILIYQAVDQTLDNTV
+                     LLTYFGFCIGQYVGAKKIAVDKQRSTPNDNP"
+     gene            37827..38237
+                     /locus_tag="CPT_Solent_067"
+     regulatory      37827..37830
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_067"
+                     /note="CPT_Solent_067"
+     CDS             37839..38237
+                     /locus_tag="CPT_Solent_067"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="i-spanin"
+                     /protein_id="AXY86235.1"
+                     /translation="MTIRSVLITVVATVLVLGAGAYTCYQAGYKARVNEEKQERLNDAE
+                     LEQQRLKAQQELAGDVLRGLADWSQNTKIVEIRHEKTNTVFRNECLTPEYQRLYNERVT
+                     EAEARLSGRVSSEVSDRKPPTVKRSDGN"
+     gene            38063..38322
+                     /locus_tag="CPT_Solent_067a"
+     regulatory      38063..38065
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_067a"
+                     /note="CPT_Solent_067"
+     CDS             38074..38322
+                     /locus_tag="CPT_Solent_067a"
+                     /note="located near other lysis genes; Lipobox found using
+                     LipoP database; good blast hits to characterized variants
+                     of other Salmonella phages; Has SPII sequence (LipoP); 0
+                     TMDs (Interpro); 1 TMD, 1 signal peptide, 1
+                     extracellular/periplasmic domain, 0 cytoplasmic domains (N
+                     in C out; interpro, TMHMM); Good hits from cadidate ISP/OSP
+                     tracks; Non-cytoplasmic domain (interpro); Near other lysis
+                     genes; partially embedded in i-spanin gene; Good hits from
+                     candidate ISP/OSP tracks"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="o-spanin"
+                     /protein_id="AXY86236.1"
+                     /translation="MKKLILFFVMSVLLLNISACTTNELPKQKPVYQAALVQKCQTENL
+                     PRLNGLTGTDSTDVNDAWLDIYFKCATIHNGLVDSLQ"
+     gene            complement(38519..39698)
+                     /locus_tag="CPT_Solent_068"
+     CDS             complement(38519..39688)
+                     /locus_tag="CPT_Solent_068"
+                     /note="good blast hits to characterized ST9NA variant and
+                     those of other Salmonella phages; Has DNA methylase N-4/N-6
+                     and SAM-dependent_MTase domains (interpro); near
+                     replication genes"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA methylase"
+                     /protein_id="AXY86237.1"
+                     /translation="MECLIGMRMMLADNSIDAVVTDPPYGLSKQPDMNEVLRHWLNGDD
+                     YVHTGNGFMGKYWDSFVPGPSIWKEVFRVLKPGGHLLAFFGTRTYDLGTLAIRLAGFEI
+                     RDQIDWVYGSGFPKSLDVSKAMGDEQWQGWGTALKPAHEPICVARKPLVGTVSENILQF
+                     GTGGMNIDGCRIISNGDHKRQYQPTNNKRNIYGKQNGFQPTNNDGRFPANFTHDGSNEV
+                     VSLFPAKAGAAAPIKGTEDSQASTGNVTSQRKRVPGAFHADSGSAARFFYCAKASKSDR
+                     DEGVLLAKTTAAEMTGRKPDTDGLNSQRVGAGRTSGARNNHPTVKPTALMQWLVRLVTP
+                     PGGKVLDPFTGSGSTGKACAIEGFDFIGFEMDPHYCEIAKQRINYVHNR"
+     gene            complement(39690..40053)
+                     /locus_tag="CPT_Solent_069"
+     CDS             complement(39690..40040)
+                     /locus_tag="CPT_Solent_069"
+                     /note="Has N-(deoxy)ribosyltransferase-like domain
+                     (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative nucleoside 2-deoxyribosyltransferase"
+                     /protein_id="AXY86238.1"
+                     /translation="MKLCYIAGPYRAECALKTSRNVSRAEQMGKRLTLERPEWFPVIPH
+                     KNTELWDFDGGLRNVQPEYYLSGTLEVMRRCDAVLVLPDYRRSSGTLAEIAEAERLGLP
+                     VYYSVGSIPYGD"
+     regulatory      complement(39696..39698)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_068"
+                     /note="CPT_Solent_068"
+     gene            complement(40040..40388)
+                     /locus_tag="CPT_Solent_070"
+     CDS             complement(40040..40375)
+                     /locus_tag="CPT_Solent_070"
+                     /note="Has domain similar to bacillus phage protein BC1872
+                     (interpro); Has domain similar to P22 NinX (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="NinX"
+                     /protein_id="AXY86239.1"
+                     /translation="MTDYSVLSDREIDRLVLNVVYGIHANDKDIQGCWSRGGFKYTSNA
+                     SDAWSIITENKISTMWMAAEKEWCAWANGELEEECWEWKYYPDDYYNHQNPLRAAMIVF
+                     LQMQENK"
+     regulatory      complement(40050..40053)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_069"
+                     /note="CPT_Solent_069"
+     gene            complement(40368..40916)
+                     /locus_tag="CPT_Solent_071"
+     CDS             complement(40368..40904)
+                     /locus_tag="CPT_Solent_071"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86240.1"
+                     /translation="MHTSHKFVAGSPIGVFTPGKIYNRVDGFTRDGRSRGFYIDDRGEF
+                     RLTDDDMFEPAEQIQLRLPQMPMFPARQERLKLAARWGTSEISISNWYKVDDLMKPWRI
+                     SDAICGTRVLTEPNTTTFKPGELAELANSRGYLLSELSVRWGWHYGCETLHTISTDPRR
+                     VALIWDMLEGMNRHD"
+     regulatory      complement(40386..40388)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_070"
+                     /note="CPT_Solent_070"
+     regulatory      complement(40913..40916)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_071"
+                     /note="CPT_Solent_071"
+     gene            complement(40944..42810)
+                     /locus_tag="CPT_Solent_072"
+     CDS             complement(40944..42800)
+                     /locus_tag="CPT_Solent_072"
+                     /note="Has DNA/RNA polymerase superfamily domain
+                     (interpro); good blast hits to characterized ST9NA variant
+                     and those of other Salmonella phages; near replication
+                     genes"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase"
+                     /protein_id="AXY86241.1"
+                     /translation="MSDAYVHDIENYPNVFLFGAIHALTETPYIFEISHRRDDRSAFYF
+                     FTEYLRDHRAEEVGYNNLGYDYPVQHSILNNILYITNADIYKKGDSIINAGDENRFAHM
+                     VWEKDWIVPQLDLYKIHHFDNQAKRTSLKTLEFNMRMENIEDLPFTPGAYLTDSQIDTL
+                     RQYLMHDLKATLMFYKHSKKLIDFRRELSAKYGRNFMNHNDTKIGKDYFIMELEKSGIQ
+                     CFEPGSRKPRQTHRPSIALNSVIFPYVRFEQPEFNRVLNWLRQQVITETKGVFTDLSAD
+                     INGFSFDFGTGGIHGSIESQTIRSTENYVIIDLDVASFYPNLAISNELYPAHLGKQFCT
+                     IYKNVYDMRSSYPKGTPENAMLKLALNGVYGDSNNVYSPFYDPAYTMAITINGQLLLCM
+                     LAEELLKIPGLSMIQANTDGLTVYVPRVFTGQVEQVRHAWEKLTRLQLEEAIYDVMFIR
+                     DVNNYIAVYEGGKKVKRKGAYCHSVDLGWHQNHSMQVVAKAAEAALVHNKDIRDFITSH
+                     EDIHDFMLVTKVPRNSKLLWGDKQVQNITRYYVSTDGAPLTKVMPPLAKSLKLNPDAPE
+                     RRMSVCKGWLTTECNDMKRFNRATLNYDFYIKEAEKLVAPLR"
+     regulatory      complement(42807..42810)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_072"
+                     /note="CPT_Solent_072"
+     gene            complement(42881..43713)
+                     /locus_tag="CPT_Solent_073"
+     CDS             complement(42881..43702)
+                     /locus_tag="CPT_Solent_073"
+                     /note="Has domain similar to Bacteriophage APSE-1, protein
+                     50 (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86242.1"
+                     /translation="MAQKESFVTPVGRLVGGSFFDINTHDHENKPLAPEKHNWWVGLAF
+                     PKTAANWWEEQGELGAVFQAIMRAANSHYVNGEPQQPTFAWKIINGDDPKHASKTGYAG
+                     HWVIGFSRNVAIDACPVYNAAYQPVIDKNLAKKGYYYRISGSSVANGRTGNQAGVYINM
+                     EMAQLLYAGEEIISGPAPASVFGAAPAMPEGARPIGVTPAAAPVAAPTPAAAPVAAPTP
+                     AAAPVKVMTEKAGGATYEQFIAQGWNDEQLIANGYMVMTTPAPNFLNGNGY"
+     regulatory      complement(43710..43713)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_073"
+                     /note="CPT_Solent_073"
+     gene            complement(43718..44878)
+                     /locus_tag="CPT_Solent_074"
+     CDS             complement(43718..44863)
+                     /locus_tag="CPT_Solent_074"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86243.1"
+                     /translation="MTSHATFSASGSKRWLACPGSVQLSQRIDYVEPSSPSAEEGTAGH
+                     WVLEQKIKGKPPLMPCLAPNGVQVTEDMHIYADDFIADVLSVGAKLDPLFSEVRIHIDW
+                     LLPGQYGTCDYRWYDFNTDTLYVWDYKYGHVAVEAVDNSQGVYYALDQRCIDTVKRVVF
+                     TIVQPRAYHPLGPVRRWEFNRATLMEWAERFKHGFNEAHKPDAPLNVGSHCHYCPARGM
+                     CPAMYERVLELATVLDAPPSLTPEEVARRLALLEELYTRSSEAKTALHTQGLHFVRMGK
+                     ALPGFKLATKQTRRQLTDEGKLIGAAPMFGVNPETLYERKLKPLSTLEKSLPPALVDMC
+                     TTKPEGQPVLVPDSDPRKGHSTLVESVFNKPVTMPTGARPL"
+     gene            complement(44863..45636)
+                     /locus_tag="CPT_Solent_075"
+     CDS             complement(44863..45624)
+                     /locus_tag="CPT_Solent_075"
+                     /note="has TonB box (interpro); hypothetical conserved
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative TonB receptor protein"
+                     /protein_id="AXY86244.1"
+                     /translation="MFEVKLLVTAPGLETAINNLAAAIATGAAPLMTAQGDGITKETVT
+                     VVAESLPVVSATTEDIDYNETSTEEFDKWGLRHDPRIHTDSKSLNKGDGLWRQKKKLDE
+                     AFVDGVKRELIAEAVEAGRYTGPAELAPGYVAPVDPAPAVPAAPVAPVVPAAPAAPVEQ
+                     PVTTDPAKVYNTQVLQSALMQMFGQITGDRAAPLSQRIMGLYETQNVMQIDDPVKLKSI
+                     IELIERINATPADAENIVGQAESVKQMGGAF"
+     regulatory      complement(44875..44878)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_074"
+                     /note="CPT_Solent_074"
+     regulatory      complement(45633..45636)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_075"
+                     /note="CPT_Solent_075"
+     gene            45786..47456
+                     /locus_tag="CPT_Solent_076"
+     regulatory      45786..45789
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_076"
+                     /note="CPT_Solent_076"
+     CDS             45795..47456
+                     /locus_tag="CPT_Solent_076"
+                     /note="good blast hits to characterized ST9NA variant and
+                     those of other Salmonella phages; has Helicase superfamily
+                     1/2, ATP-binding domain (interpro); located near
+                     replication genes; has Helicase conserved C-terminal domain
+                     (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="helicase"
+                     /protein_id="AXY86245.1"
+                     /translation="MKARYYQTEAINNVCQAWSSGADDVILVLPTGAGKTFCMSELVKT
+                     RDGVKVIQAHRKELVSQIAMAVARQGLAHRFIAQKDTVKFATNQQMKTLGYSTYSPGAD
+                     IVITSSQTLRTKQYERWYNDVSLVFSDEAHHLVRGTQWGDCREKFPNAKGLGVTATPIR
+                     ADGKGLGRHASGYADQMIIGPSMRELISQQHLADYRLIMAETDLELTAEMISHTTGDYK
+                     PSALKKAMEDSNIVGDTVSTWKTYADGLLTVVFTCDVDSAEALAQEFRDAGIPAEAISS
+                     RNSNQERADILERFERRKTLVLCNNDLFGEGYDCPAMECAVMDRPTESYSLFVQQMGRP
+                     LRFKPGKKALIIDKVGNVRRFLARGFPLPDQHYNWSLDDRYRRSSNSSGNSNTTCTNKG
+                     DPDNGIPPCLKPYPSGLPCCPYCGHIPEKAERSGPDRVEGNLRELTPEELEELRRAVVI
+                     IDRDPVAVKEQMLNAGAPPVAAYSAMKNIQAMNDAQHKLRSIITTWAGIQRDKGIPVDD
+                     AYKMFYRVFGVDVLSAQGLRTREANELAARVASSLI"
+     gene            47488..48004
+                     /locus_tag="CPT_Solent_077"
+     regulatory      47488..47491
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_077"
+                     /note="CPT_Solent_077"
+     CDS             47498..48004
+                     /locus_tag="CPT_Solent_077"
+                     /note="Has Ribonuclease H-like domain (interpro); Has 3-5
+                     exoribonuclease Rv2179c-like domain (interpro);
+                     hypothetical conserved protein; good blast hits to
+                     characterized ST9NA variant and those of other Salmonella
+                     phages"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative exonuclease"
+                     /protein_id="AXY86246.1"
+                     /translation="MRDLMVDIETCGTKPGCAVLSIGAVYFDRQGNIGETFYASMGFNA
+                     LAYGHTDPDTMKWWSQQSEQAQKDAFGGTADPVQVAKDFAKFIWHDAKPWGNGSTFDIT
+                     ILEAWFNAVGVRCPWKFWNVRDVRTAVDLLGINPKEFTRDGTYHNALDDCLHQIKYLTS
+                     GTKTL"
+     gene            47988..48492
+                     /locus_tag="CPT_Solent_078"
+     regulatory      47988..47990
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_078"
+                     /note="CPT_Solent_078"
+     CDS             48001..48492
+                     /locus_tag="CPT_Solent_078"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86247.1"
+                     /translation="MTTLEQWAIRHGVSQMALYELYALYQPDGTPHEDGVNESATSKEC
+                     ELIAARAGQRIWRNNSGALKNEKGMMVRYGLGNTSAKINAVMKSSDYIGIKTKIVTPDM
+                     VGSKVGVFIAAEMKRPNWHMIHSDKRAQAQATFGAIVENAGGEFRFITHPSQFEKWIKQ
+                     "
+     gene            48479..48662
+                     /locus_tag="CPT_Solent_079"
+     regulatory      48479..48481
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_079"
+                     /note="CPT_Solent_079"
+     CDS             48489..48662
+                     /locus_tag="CPT_Solent_079"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86248.1"
+                     /translation="MNTERIERLQKLIDNHGIEAVAKRLNVTEIHVKRNLLTGRSAINL
+                     VKLMAAERQFGA"
+     gene            48654..51020
+                     /locus_tag="CPT_Solent_080"
+     regulatory      48654..48657
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_080"
+                     /note="CPT_Solent_080"
+     CDS             48666..51020
+                     /locus_tag="CPT_Solent_080"
+                     /note="good blast hits to characterized ST9NA variant and
+                     those of other Salmonella phages; located near replication
+                     genes; had Bacteriophage/plasmid primase, P4, C-terminal
+                     domain (interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="primase"
+                     /protein_id="AXY86249.1"
+                     /translation="MKGLLNRKQWVMWRLETVADRPKPTKVPYSPVHGYKASTTNPNDW
+                     SDYHTALGMAQMYGMSGVGFVFTENDPYFFIDVDNCLVDQATATWSPLAHEFVNRFPNA
+                     YTEVSQSGTGLHIICAYTSIPEGFNSLNDQKTGLEMYWRDRFVAMTLTGNGDVDIDYTQ
+                     GIHDSIARYGRIRSDRSARWTTAPCDDWSGPADDDELIKMALNSSSAASVFGNKASFAD
+                     LWNANVERLSVSYPSDQGKDYNASAADAALCSHLAFWTGKDCERIERLFNRSGLVRGKW
+                     TDRQDYRENTILGAVERCDTVYRSQPTLTPELMKAVTPAPTVVPNGGTPAYMSVKPGEG
+                     AYGSNHTVNASTFVNNYYPNNTLIFVQQQPYRFNGRVWERVSEDELKHQISMAMLASEP
+                     NADVINGTYKVLSYLFTRADRELGTWPGVDVSHYIVCQNGILDVHTGKCDAHNPDFFTT
+                     SILPYSYDPFARAPAFEQFLNTTLEGDQERIALLQEWLGYMLVNSYDYQKAMLLIGAPR
+                     SGKGTIGRIIQALVGDEAYAGITLEGLASDAVLETVLDKSVLFIGDAHSVSGPDRNRIL
+                     DRFKSITGCDAIPVNRKYKGAWNGRLPGRMTLAANNIPAFADDSGAMANRLLILPFNIS
+                     FLGREDTTLEARLMKELPGICNWAIEGLQRLRANGRFTEPKASLEERQEIMDQQSPLRS
+                     FIRDCCELVSDGEVHTEELYGRYRLWKTQEGGPAMTKTAFSRAFKSTLRGKVKKDVVNI
+                     NNVRLNGFRGIRLLPFQSTANVVPFPPASNG"
+     gene            51098..51323
+                     /locus_tag="CPT_Solent_081"
+     regulatory      51098..51102
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_081"
+                     /note="CPT_Solent_081"
+     CDS             51111..51323
+                     /locus_tag="CPT_Solent_081"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86250.1"
+                     /translation="MKPRYRLMRLSQCPNGTRFYFYRLKQLLPFTLIANSFKKHESIYH
+                     EGHDFNITARKYRTSIHKLVWAKVN"
+     gene            51313..51522
+                     /locus_tag="CPT_Solent_082"
+     regulatory      51313..51316
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_082"
+                     /note="CPT_Solent_082"
+     CDS             51325..51522
+                     /locus_tag="CPT_Solent_082"
+                     /note="has signal peptide, 1 TMD, 1
+                     extracellular/periplasmic domain, 1 cytoplasmic domain (N
+                     out C in; interpro); has lipoprotein attachment site at
+                     N-term (interpro); Has 2 TMDs (N in C in; TMHMM);
+                     hypothetical conserved protein; good blast hit to
+                     characterized variant; putative transmembrane lipoprotein;
+                     putative transmembrane lipoprotein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative transmembrane lipoprotein"
+                     /protein_id="AXY86251.1"
+                     /translation="MKNIFDRLITVIVFLVSVTLASCIVGLMTRGNHAETPWWFLSGIG
+                     LLAAVTSIGACMWGVKNDHD"
+     gene            51500..51730
+                     /locus_tag="CPT_Solent_083"
+     regulatory      51500..51502
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_083"
+                     /note="CPT_Solent_083"
+     CDS             51515..51730
+                     /locus_tag="CPT_Solent_083"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86252.1"
+                     /translation="MTEFGAVIKKEDRYAHIDTRITWVDISEATLFSSTYMAGVALKSL
+                     RDQGFNCRKVTIAPVKITRIVEETEG"
+     gene            51714..52428
+                     /locus_tag="CPT_Solent_084"
+     regulatory      51714..51718
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_084"
+                     /note="CPT_Solent_084"
+     CDS             51727..52428
+                     /locus_tag="CPT_Solent_084"
+                     /note="Good blast hit to characterized canonical phage
+                     protein variant; Decent hit for conserved SAM MTase domain
+                     w/; 80 % coverage (interpro); hypothetical conserved
+                     protein; near replication genes"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative C-5 cytosine-specific DNA methylase"
+                     /protein_id="AXY86253.1"
+                     /translation="MKIVWSLFDGSGIMGLPWVKAGYQVYCFNADGADHGPYDKFHARY
+                     IHEGLHYVNAWIDVNFMNAAVAGIYGKPDIIFAFPPCTDMAVSGASAFESKRKKDPLFQ
+                     EKAAFTAMIASRIADHFNIPYVVENSVSVLSTFWRKPDYIFNPWEYGGYLPENDIHPFF
+                     PEYINPRDAYPKKTCLWTGNGFIIPEKKIVKVEKGYSNQHLKLGGKSTKTKVIRSLTPR
+                     GFARAVFEANK"
+     gene            52414..52823
+                     /locus_tag="CPT_Solent_085"
+     regulatory      52414..52417
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_085"
+                     /note="CPT_Solent_085"
+     CDS             52428..52823
+                     /locus_tag="CPT_Solent_085"
+                     /note="No hits for ST9NA; Has domain similar to
+                     Mycobacteriophage D29, Gp61 at N-term w/; 50% coverage (no
+                     functional info; interpro)"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86254.1"
+                     /translation="MIIVVTGGRDFNDRTAVFSALGILHKQFPITELIEGGASGVDNLC
+                     KQWAQLHSIPVRSCPAAWDDLTVPGAVVKQGKHGAYNAVAGHQRNQAMLEGEPRPTYGV
+                     VFPGGRGTADMHRRMLKAGLTVWVPYS"
+     gene            52807..53248
+                     /locus_tag="CPT_Solent_086"
+     regulatory      52807..52810
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_086"
+                     /note="CPT_Solent_086"
+     CDS             52820..53248
+                     /locus_tag="CPT_Solent_086"
+                     /note="Full ST9NA_080 protein has strong homology to 30%
+                     length of this protein at C-term end; No hits on possible
+                     introns track; No conserved domain hits (interpro); Good
+                     blast hits to characterized variants; hypothetical
+                     conserved protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative HNH endonuclease"
+                     /protein_id="AXY86255.1"
+                     /translation="MKLSKKQRQELRMKFGGYCAYCGQLLPEKGWHADHVQAVYRKLEQ
+                     DMDAAKKGLWKLKATGEHYREHNDVLENLYPACAPCNLFKTTYTLEQFRKQIGEQVNRA
+                     RSYSVNFRTAERFGLLQVIERPVVFWFEIYPLIVQNNS"
+     gene            53294..54075
+                     /locus_tag="CPT_Solent_087"
+     regulatory      53294..53297
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_087"
+                     /note="CPT_Solent_087"
+     CDS             53308..54075
+                     /locus_tag="CPT_Solent_087"
+                     /note="has KorB DNA binding domain (interpro); Good blast
+                     hits to characterized variants"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="putative ParB-like protein"
+                     /protein_id="AXY86256.1"
+                     /translation="MANINSLRKLSDTDKTNVKRGNAYRIDPRIIKIRPGHNPRGVFTD
+                     NYWETEAALAHIENFRQAYTNGDFVPPIVVQVVDGVPYVQDGEHRLRGVLAAIEAGTPI
+                     LTVDVVESSGDELQQTLTLLKGNEGKPWSPVERAVIYGRFRSYGMSVEQIATQVGKTVQ
+                     HVYEQLNILDMPLELKRRIQNGEISASAAIRQFKAGDKEPVVTRRPPAKLVRSAVEAIR
+                     GEWSVTRSEGGKVLVELTAEQFEALKALKEHQL"
+     gene            54059..54263
+                     /locus_tag="CPT_Solent_088"
+     regulatory      54059..54063
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_088"
+                     /note="CPT_Solent_088"
+     CDS             54072..54263
+                     /locus_tag="CPT_Solent_088"
+                     /note="No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86257.1"
+                     /translation="MKNRKAKMLISRVYRLCYPSQWLRVSNRRVVLFSFSGIAREGVSD
+                     KPSAAQNRWKNHLRTKGD"
+     gene            54348..54571
+                     /locus_tag="CPT_Solent_089"
+     regulatory      54348..54352
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_089"
+                     /note="CPT_Solent_089"
+     CDS             54362..54571
+                     /locus_tag="CPT_Solent_089"
+                     /note="Has lamda Xis-like domain (no functional info;
+                     interpro); No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86258.1"
+                     /translation="MNKASPVEIRKCLEMANSLAHAGIRFVPVPVTSDDEFNSLVSHSY
+                     GILDKIADDCDTTNQQFESLAKHE"
+     gene            54611..54960
+                     /locus_tag="CPT_Solent_090"
+     regulatory      54611..54615
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_090"
+                     /note="CPT_Solent_090"
+     CDS             54622..54960
+                     /locus_tag="CPT_Solent_090"
+                     /note="No hits for ST9NA"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86259.1"
+                     /translation="MSLFQCENCGCVENTALSSQGFNGFFEKLYDWSYAPERKGKRLCS
+                     ACGPVKYKDGKDTEYGKWHNVFPRQYLPLGKFKTNRQGNLEHVETGETDYQPYILKQDG
+                     DWKNEPFC"
+     gene            complement(54991..55738)
+                     /locus_tag="CPT_Solent_091"
+     CDS             complement(54991..55725)
+                     /locus_tag="CPT_Solent_091"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /protein_id="AXY86260.1"
+                     /translation="MKKNLLDELIDLKGGVQNAVEYLNRRGVKVTVGRYNQWLSGRFHP
+                     KYETISIILEEITDFTLSPSSVQHSDENIVLKHTLPVTELRQKLPHRRFANNYWQRIRY
+                     VDSQILEAIHGHDVWTRFEAMCGNFECARYVLRRNLNEHTITDSWIQNGLRRGWIPECV
+                     NVMVDLLEKYEDTGTPFNMMVCEPPVARAEPPVARAEPPVVDVSDLKEKIRLYALSHNP
+                     HCDVDNMPDDVVLMMYKDMMGQ"
+     regulatory      complement(55733..55738)
+                     /regulatory_class="ribosome_binding_site"
+                     /locus_tag="CPT_Solent_091"
+                     /note="CPT_Solent_091"
+ORIGIN
+        1 tttgaccaac ccctctctat cttattcttt ttattatctt tttatagata acatagaaaa
+       61 catagatata aagaaggagt agtatagaaa gatagagata gtgcatatag tgtattagct
+      121 gtaaacagag ctaaaataaa agtctgggag atacctattg taatctatgt ttttatgcaa
+      181 gtatttgaaa tgattgtgat tatgggttac ttatttatgt atgtggtcga aaattagtgc
+      241 atgttgtgca ctaactgtaa aattaatact aacattgtat tagctgtaaa acagggcgtg
+      301 tggacaaccc gtgggtatct gtgggaaact aatttaaaat ttatgggaga caaatttatg
+      361 aaaatttcag accgggctaa aagggctgct ctggagttgt cgccggaaca gctcaaattc
+      421 gccaacctgt ggttagatcg tgtcaataac ggcttcagca atacgcgatg cgttttagag
+      481 gcttatccgg gtcacacatc tgatgcagcc gctgcaacga ccgcacaccg cctcctgtcg
+      541 aatacgaagg tgttgaacta tctggacgcg atgggaagtc atgcgcttga gtctgtcggg
+      601 gaatcgttaa cgagtcgtgt cgagtggtgg aaacgagcgg caagcacggc tgaagaatta
+      661 ctggaaccgt attgtcagcg cgttatcgtc cctggtgaag acgacacaga agcgaaacac
+      721 ctgtgggtga acagtaccga cgatatcccc agccatctgc aacagtacgt agtttgctac
+      781 aaacgttacg tgctgggcgg atacattctg gtgacgcgtg aactgttcga cccgaaaact
+      841 cgtgcaaaag cgtctgaaca actggataag atcaccggga acagtatcga ccgtgtggaa
+      901 ttgtctggcg tggttggtaa cgtggttcag agtgttcctg aaggtgcaac tatcgacgac
+      961 attgcgcaac tgtatcagaa ggcgcttaaa taggcggttg ttccggctta aataacgccg
+     1021 gaaaccgttt gcgttttgac gattggtggt ttggtggtgc gatggtactg gtaagggtgt
+     1081 taagttcgtc agagagcgtt ttagaaagcc cggttaattc ctggcgatgt tctggaagtg
+     1141 aacgtagatt ccgggtgtac cgtcgacagc taatttttca aaatcgaatg gctgtggttt
+     1201 tccgttatcg tcgaaaactt tttcagactt ttggtctacc agataacatt tacccacagt
+     1261 aaatagttcg cggtaacggt ctgcgatttt tgtaaaacct gaacacttaa caatcattat
+     1321 taccctcgtg ttaaaacccc ttacggggcg ttttagagct tatcacgtaa aatcgctatt
+     1381 tcgctcattg ctgaaaacat gtttgatttc atgcgatcag atttttcgat acgacattta
+     1441 tcgttgatta tagaaatggc gatattgaaa gcctcaattt tcgcttcttt tatcgcttgt
+     1501 ttacggggtt tttgttttac cttcggtatt tcacgaaggc attttggaat ataattcatt
+     1561 aacgaccgta ccctgttgct tcatcaaatt cgttactgga catataagaa ccttcaacca
+     1621 aaccaaacat ttttgcttcg attggtttta cacgataagc gaaaattaca ccgacctgaa
+     1681 aagcacattc accatattca gctacgatat atttttcaca ctctgcttta gtttcgaagt
+     1741 ttttcatttt ccggttcctc acaattcgtt gtctatgtga gtaatttaca cttccttgtg
+     1801 caattcgtca agaattattt taaataaaac cccgggttaa cccggggtaa tgttcattat
+     1861 tcgcccaacg cttctttcag taaccgatac gtttcaggat acttaccgga tccgcgttca
+     1921 cgttcgtaag ctgcactaat aatgtcccaa ttttcaatca ctcctttaaa cgccggacat
+     1981 ttttcagcaa tcaatggaaa actgtttctg atttccggta cagcttcaac cagggaccaa
+     2041 caacggcgaa aatcagcaac atctgatggt gcatgaaatc cccagtcgcc acccatttca
+     2101 ttacctgtgt gaatgcagac catcgtttta gaactcagtc cagtttcccc agagcacagc
+     2161 cactgaataa tacgttcctg ttctgttttc atttgtttct agcctccatc attgcatcag
+     2221 ccaggatata agcacgggtt gcgtatagtt cttcatccat ttcatcggga aattgtccac
+     2281 ttaacattcc ctgtaaagca gcaattgcaa actggtcacg aacggttagt gttttctggt
+     2341 tgatttcttc cagggtttcc gctgtctgga aatatgacag gtaattttga ccctcaattg
+     2401 atttataacc cgcattgtgg ttacgttcgg catcgctacg tgtcatcttt tcgcctcccc
+     2461 acccaaagca gtgataagtt gtttaatcag cgcctgaagt tcacctgtca ttagtacaaa
+     2521 atcagcatca aaccgcgcta acacatcttc acaatcgata tcgtcattct ggcacaccag
+     2581 ttcattgcag aatttaagac ggcttaacgt tacgctgtca gacagggtga acgtgatacg
+     2641 ctcttgccag tcgagcgcca gtttagtaac cagcttcccg gcttcaatat gcgttttaat
+     2701 ttcgtcgctg gttaaatcct gttttttaac cttcgcaata ccaccatcag ccaggatagc
+     2761 tttcagttca gccgcgtcac ccattgtgaa acctgcagga accatcccgg aacgtaccca
+     2821 ttcagtcatc gtcagttcaa cagggttttc tatggtcagc gggacaactg gcagactacc
+     2881 cagggattta cgcaacagtg ccagtgcatc ttcagcccgt ttagcactgg acgcatcaac
+     2941 cacaattgaa gcattaccaa tatcgatcca caactgtgta cgatggtttt taacgaatgc
+     3001 ccgtggtaac agtgaatgca acacttcatc tttcagtgcg tctttctctg tctttttcag
+     3061 tttacgaccc tgttcacttt ccagcttagc gatacgcgcg tttaactcct gtttgataac
+     3121 cggaccaggt ataatttttt cctgtttctg gatagtcagc agatattgcc cgttagcctg
+     3181 gtgaaccagc gtctgatgtt gttcggttgc cggaacccat ccagtacgcg ccatatcctg
+     3241 tgaaccgcac tgggtaaact taaactgttg tagttgtgtt tctaatgttg gtaactgtgc
+     3301 cattatcgac atagggttag tcaggcgata aataatagcg tttttaaaga agttcataat
+     3361 tagtcgatat cccgtgggtt aactttgaca gatgtttgaa ttgctacaga aggtgaataa
+     3421 ctgatacagg tataatcaac acattctgct tcaacaatta gattagtttg aacagtagag
+     3481 tgaatagcca tgtttaactc tgctgtcagg cgtttcattt ccggttcctt cttttccgtg
+     3541 cattatgtcg cgcctgtgca acaccagttt tacgccgtgg ttgtttagtc ggtaattgct
+     3601 gggtgacttg tggtggttca tcccacacga tgttgttagt ttttaaacta cccattaatg
+     3661 aaatgaagtg atgtaacaac agtatatgaa tcatacattc accactttta aatcgggtga
+     3721 caggctgcgg tgatcgtgat gaccgtccat agtgaatgag aaagtgaaat cacacttttc
+     3781 accatcaaac ttgaagggga tttgaaaccc gttgtcgtca gtaatacgaa ctttaaccgg
+     3841 gtattcagct tgtggatcga cggctacgac gataccgaga ggtttagatt tgcgacgtgc
+     3901 aagaacttct aacagtcgtg ggctggtgat ttctacgtgc tggtttacct gaaacatgtc
+     3961 agtaactccg ggttgtttat gtaccctgaa gtttatctga cgatgtgcaa cccgtcaaga
+     4021 attattttaa aatgtccgtc aacgtcaggt gtatagcaaa caccgttacg gtacacagtc
+     4081 agtgttttgg tgatttcctg ataatctctg cactggctac gaacacgcaa gtcatacccg
+     4141 gtctggataa tcagccaggt tacaatgatg gctaacagct ttaaaacgta tctgaacatg
+     4201 ttccgcaccc ctgtatgata gtttcagggt agtgcggaac tggcggggat ggtatgaagt
+     4261 ttacaataat ttaaccgttg gtgggtcgat ggttaatgtg cgcataaaac ttagtgccta
+     4321 caggcattcg ttccatcttg agtttaccac gcatgtaacg gtaagtttcc ccaggggcgc
+     4381 gtaactctgc atcacatggg cgttcaatga tttcaccaac tggattacct aatgcacctt
+     4441 tccatccttc ccacatagca gccatactga taaaccagac actacccaaa ctggcttttt
+     4501 tattttccca gaaccagtca ataaactcta tcgacatacc gtgttgttct gcaatttcat
+     4561 aacggtcatc cattgttata taccttagta tgtagttgcc aatttttagt agtatcttta
+     4621 cggcgtttaa tctttctacc taatccgtga gtacccattt ttaaaattgc atgtttattt
+     4681 tcaatatcaa ttaccttata aaaataacca cggggtgata gccaaatctc atttatctga
+     4741 aattctttat tcactttttc aaccctccaa ccatatttag cacgattaag cgcggtttgt
+     4801 ttattgccag tggtaaacag tacccgccca gatttatgac agatgttcca tattgttaac
+     4861 ccaattgcat tacttttagc tttccacaat gaacgcattt ttgatgataa acagtataaa
+     4921 tacggtaagg tctaacttca ccgggacggt atgcttctat cttttggcga tcaaaaatat
+     4981 cccattggtg catccctatg aaacatttcc aatttctggt agctgtcacg atttaataac
+     5041 cccttcttga ctggtaatcg atcttttcca gagcacgttg aacagttaac cacgatgaca
+     5101 gcatgaataa ctgtgaatat tgacccagtg ccatgttacg cggtctttcc tggtatgcgt
+     5161 aaatagttgt caaatcttca ccactcagac gcaaacacca cggtgtagcg gttggttctt
+     5221 cacccatgtt cgacgcgctc cagtagttca cgaatactct gcagaacttg ttgctttgtc
+     5281 tgcaccgtta caagtcgatc tgggtaatga tcgaatgtat ctaataccct ttgaagtgca
+     5341 ttaatcataa gttcagtatt ataaagtttt acaaatgtag tgtctttaaa gtgaacacag
+     5401 taaattgcgt tttgtgcata ttcaggttgt gcattacgtt caatctgaaa agctaataca
+     5461 tctttaagca aacagttgtg gtctttaatt ttcatacccg taacccccag tagattttaa
+     5521 ccattcgttg taactattgc cgattgacga caattgtgtt tcttgtacca ggctgacgca
+     5581 gtgtgaaatt gtcagacccg gttttagtca gtctgtaacc gttgatcgtg ttcatttact
+     5641 cactgaacag tttcaccaac aatttattaa ttttagcagc atcagcagca tcagcagcat
+     5701 cagcagcata agcagcataa gcagcataag cagcagcatc agcatcagca gcacgagcag
+     5761 cagcataagc agcataagca gcataagcag cataagcagc ataagcagca gcatcagcat
+     5821 cagcagcacg agcagcagca taagcagcat cagcagcatc agcagcataa gcagcatcag
+     5881 cagcataagc agcatcagca gcatcagcag ttggtgtatt taagaaatca acgattaagt
+     5941 tataatcatt tgtatatggt ctgatttttt caatattcaa tagtgcgcaa tcacatgcga
+     6001 atcgaacaat cttttccttt gctaatgttt taccagcaag ccacagcagg tcactaaccg
+     6061 tgttacaccc accgatcaaa ctaacaacat caacaggttc gtctgtgtta ttagtttgat
+     6121 ttacaaaacg tttaaaaccg tcctgacacg cgccaaaatc tttcagttct tgtttagtaa
+     6181 ttttcataca gtgtatagct ccagttcaat tatcggtgac aagatatctc ttcaacccgt
+     6241 cgcaactaat ttcacaattc cctcaggaat caccatctat ctgatagtgc atagcgtgtg
+     6301 atttcgtggg gtaagttacg ctttatactt accgtagcgc ctgacaatca gtggtatctt
+     6361 cagccggaca tttccgggtt actacatact tggtcaggta tcttgtctat gaactaatca
+     6421 taaccatatc tatgcaatcc gtcaagaatt attttaatat ctgtaagcga ttaacactag
+     6481 tggtaaactg tacagaacag ttacaaatgg accgacaagc atgaataaat tcaccggaaa
+     6541 cattcataag tacccgcgct ggcgtgatgc atatgctgat gattatagga tatggcgtaa
+     6601 aggtcagccg cgcccggact acaaacagtg ttacattgac cgtatcaacc tgttaaaccg
+     6661 tatgcgtaca gatcgggcaa tcgttccggt actgaaaaaa tattatgaaa caaaccctgt
+     6721 agcgttcatc ctcgactggg cgtttactta tgacccgcgt aacgttggaa ctgaattccc
+     6781 cccaaatatg cctttctgcc tgttcgaaag acagatcgac atgattcagt ttgtttatga
+     6841 agcgctggaa gataaagaaa aaggattatg ggaaaaatcc cgtgactatg gtgcaacctg
+     6901 ggtagcctgt ggtttatcag tgtgggcctg gttatatcgt cctggttcat cagttggctg
+     6961 ggggtcacgt aaagaaacgc tggttgataa attgggtgac cctgatagta tttttgaaaa
+     7021 aatcaggcaa attatccgcg ctttaccacc tgaattacgc ccggtcggat atcgtgaaaa
+     7081 agaccacctg acattcatga aatgtattaa ccctgaaaac ggtgcaacaa ttactggtga
+     7141 agccggggat aacatcggtc gtggtggtcg taaatctatc tactttttgg atgaagcagc
+     7201 acacgttgac cgcccggaac tgattgaagc atcactgtca gctaacacca acgttcgtat
+     7261 cgatatcagt tcagttaacg gtgtcggtaa tgttttttat cgtaatcgta aagctggtat
+     7321 ggaatgggaa ccgggcaaga aattaccccg tggtaaatta cgtgtcatgg ttctggactg
+     7381 gcgcgatcac ccggctaaag atgatgaatg gtataaacgg gaaaaacaat cttttgctga
+     7441 aaaaggatta caacatattt tcgcacagga agttgaccgt gattacgctg cagccgttca
+     7501 gggtgtactg attaaagctg aatgggtacg tgctgctttc gatgcgttta aagatattgc
+     7561 ctggcgtaaa gccaatggtt tacttacacc aacaggtcaa cgtatcgccg gacaggatgc
+     7621 tgctgacggt ggtgaagatg ccagtgcact ggtgatcgcc cacggggtat tcctgacaca
+     7681 tctgcaactg gatcaccgtg gcgctgaact ggctgcacca agaatgttga caatggctaa
+     7741 catgttgggc gttgatgaat actggtatga agtaaacggt gttggtacag gcgttaaagt
+     7801 agcagcaaat gatcgtaaag atgtgttgcg gttccgtgtg cgtccgtggt taccgaacgg
+     7861 taaagtggtg gatcctggcg gtgatattat cggcggtact aaacctggcg ataaagaccg
+     7921 taaatcaaac aaagactatt tcagcaatta taaagcacag gcatcatggg cgctgcgtct
+     7981 gcgttgtcag cgtatttata aatggtatgt ggaaggtcaa ccacaggatc cagatgaaat
+     8041 cattctgatt gatccatcac tggaaaatgc acaacggtta gaggctgaat taagccagcc
+     8101 aacatatacc agtaatggtg caggtaaaat tgttattgat aaaaaaccga atggttctaa
+     8161 atcaccaaac ttttttgatg ctgcagttat tgctatgtca ccaaaacgcg ttgatttcgt
+     8221 agaagaagcg tttacaggtg gtgtgaatcc tgttggtact cctgactatg gtgatatatt
+     8281 ttaaataatt cttgacaaat tacattatta aatatatgta aactatctgt taagtaaata
+     8341 cagtaagact atactcctgt gcgtagccat acggttactg ttgattaaca tttttcacag
+     8401 gagtttaaca tgtctgacat gactttggtt cccacatcag gtttcggtgg tgaagctggc
+     8461 gcggctggtc tgggcggtgc tgttggtggt ctgatcggtt cctggttcgg taacggctgg
+     8521 ggtggtggcg gtggttgggg tggtcgtggt ggtgttggtg ctgctgaagg tgttgttgtt
+     8581 cagaactctc tggatactaa cgcgattctt caggcgatca atgcttcatc tctcgctaac
+     8641 attcagggtc agaacggtac taacctgact gttgaacgcg ctgctgcttc cacttttaac
+     8701 ggtctgaccc aacagaacac gcagaacctg ctggcaaacg ttcagggttt tgcaggtctg
+     8761 aatacacaga ttcaggctgg cactaacacc gtggccaatg ctatctgtgc gtctgaaact
+     8821 gctgcactca cccgttcttt ccaggcacag ttagccgctg aaaagtgttg ctgcgaaacc
+     8881 aacctgaata ttgaacgtca ggctgaagca actcgtgcgc tgatccgtga ccagtttgca
+     8941 cagtcccagg ccgttctgat ttgtgacctg aaatctcagc ttcaggaatc acgtttcgct
+     9001 aactctcaac tggcgcagac cgcacaactg aactgcaaaa ttaaccaggt tgaacagttg
+     9061 gttaacttca aacttccaac gcctccaacc cctccgactg gttgctgcta attagttaac
+     9121 taagcgcctt gtgttctgca cgggcgcttt ttgggaggtt gcattatgca ttacaaaccg
+     9181 tattacgtta tcaaaaaaga cgatgatgac gatgaggaag aagatgttga aattcatcat
+     9241 caccatcatt accaccacgg gcatcacccg gatatgatgg gggtttatca tcatgatcgt
+     9301 catgcttctg gaagttatga acatggttca gttatggcaa atgttcatga gcggctggaa
+     9361 aaccctccgc acacttgggc gtcgtaccac gacaagccag gcggtttaat ggcaatagtg
+     9421 gaaatggaat atcgtgaact gatggaagaa aaagccgaag gttcacattc cggtattaaa
+     9481 aaagagttaa cggatctggc tgcagcctgt atctgtgcgc ttaaaaagat gtaactaaca
+     9541 ggaaaccgac atgcagaaca ttaacacagg tatgggcgta actcagttta acggtatgaa
+     9601 accgcgaagc accattaaca taggtggtgt ggagtggtca ttacgtcggg atgccactga
+     9661 ctcaacgact atgtttcccc atcagaaagt aagctggctt aatgcaggtt gcgaaccgat
+     9721 gggtgatggt cgcgttcatt actgttggat catgggtgta attcccccaa cgccggggac
+     9781 aatcgaacga ccgattaatg tgatgtatgt tggtttccac caatttaaaa ttaatatcgc
+     9841 gcctaattct atcagtcagg ctgatttaga cagaatgcat gtttatgtca gcgatacttc
+     9901 tcactttgct ggtgaattcg tcagtaagtt tttaggcacg gaacctgaac ctgtggaaac
+     9961 ccgtgaaaat atcagcccgt ggcccccgat gattgataaa gaagttctga atcctcgtga
+    10021 gcaaccaaaa gtagccaaaa ataaggtaaa cgaagatgac gaagaatgaa ggggtagaca
+    10081 aggtggtaga aagtctgggg ttacgcgcac acgtaatcgt agacgaaggt cacagtcagg
+    10141 aaacgatcat gaaatcagca tttaatgatt ttaaagcgat gggttctatg ggtgggatca
+    10201 tggcggttat gactaccggg aaactgagtc agcaacagtt agatcttgca caacgcattg
+    10261 cagtaaaggt gattgccgtt ctggggatca aagagtcaga gaagatttaa gggggttatt
+    10321 atgtgctgta gaacatcatg ttgcctggga atccctgcta cacaattcgg ccttcttcag
+    10381 tcacagattg cgcatactca ggctgtattt agggggttta caacacccgt gattgtacca
+    10441 ttgcagtttt ccgcgttcac gtttaggcct tttgtatttt ggtgatcgac ttgccccgga
+    10501 acagtccggg gcttttttta acgcctgaat gatgaaagaa cagcaagact gacagaacct
+    10561 aaaccgaata taatagcgta tgtcagttga tgttgaaatt taacaaaacc gtagtaatcg
+    10621 ctttgcagtt ccacgatgtc aaaagcaatt gaaaaactgg ttaccagcaa catgattgaa
+    10681 agaacacgaa tcagagcaac cgctaaccct atcacccctt gttctttttt ctcagttgta
+    10741 ataacaacga caatcattaa cagaagcgaa aaagcaatat acatgtattc catagttatt
+    10801 agtcccgata aacttcagca cacccgtaaa ttttaccagg gttgtaagcc tgttcagctt
+    10861 gcatagcacc ctgacactgt tcaaacgtca taatacgttc tgttacaggt tcaataacca
+    10921 cgccatgcag aacaagcacc agtacataac caattaacat tttctaagag tctcccgcca
+    10981 gttaagaccg tgtaggttta ctgttgctac atgaacaaat ggaatatcag gataatacca
+    11041 tgaactaccg ctgatatagg ggtcattttc ccatgcgtaa acttcaccat cagcatcagt
+    11101 agtaataact gtatattttt ctggtatagt gactgataac ccaaaataca ttacggtttt
+    11161 ataaagtgcc atttcaacca gtgtcatttt acaatctggc gcttcttcgt ggatatccca
+    11221 cgacttacca caatgtgagc actgatattc atcattacag cgaatagcgt ttacatggtt
+    11281 cacgattatt ctcctgttat tcagttgact aagtaataaa tgttatcacg ggccaattca
+    11341 tcagcgtctt cctgacattg gattaaggtg ttatcgtcat gccattcttt agcacattca
+    11401 cgcgcttgtt tacgacgttt tttcttactg ttacgaaggt ctaaaaatat ttttaattct
+    11461 ttatcataag ctcttaccat acgtttcatt gtacttttca tgattattct ccgattgctt
+    11521 tagcaacaat agctttcatt ttcatataaa tttcatattc agaattacgt tttgcgatag
+    11581 ctaattgtaa aacttctaac agttccggcg ctgcagcgat taatcgtgcg tttgctaatt
+    11641 gttctgtttt gtcaccgtta taagttggtg tatatgcaat ctcaacacct gagtctgaaa
+    11701 caatatcggg agtattatca tcattgataa caactttcca cggaccttgt gtacctttaa
+    11761 actggttcat gattatcacc cccccccccg cgtcctgaat atcttcccat tcttcgtcag
+    11821 atatattttg cccaaaaaca ccgccgtaaa agtgatcttc accaggccaa acaatactgc
+    11881 caccataata accattagaa ctgttacgat aatcaatgac taaatcacct ttatcggtgg
+    11941 taatttttgc accatagaat tgaagataat cgtattcttc attttctaac ggttctttat
+    12001 tcatatctaa atcatcgcaa gcaatgacgg taaacggaaa gcctaatgct ggaagttcta
+    12061 ctgattcaat ccatgtgtgt gaacaacatt cagcatcaac acgaacgatc agttgttgac
+    12121 catcatcagt gacaaaaaga agtgcttctt tatccgaagc gatttgcatt ttaactattt
+    12181 tcttattcaa taataagtta ttcataattc aaaaacctct tacttttagc aatttgttgt
+    12241 gcacgttttt tagtgtgacc ggctaatatt tctcggattc atagtctcgt acccctgttc
+    12301 atttgatgac taaagcataa tcgcacgttt gcaatccgtc aagaattatt ttaacaccgt
+    12361 gcaaaaaaaa tagcactgat ataacatacg ttaagaaccg taaaccgtat ggagcctgtg
+    12421 aacatggctg atgaacaatt cgaacaacta gccgttgccg ggtacagtcg aacaggcaac
+    12481 caggtaaatg atgatttctt acctaagctg aatggtaaac aaggccgtcg aatccttcgc
+    12541 cagatggctg aaaacgatga aacgatcggt ggtgtattat tcgccatgag tagcgtttat
+    12601 cgttcagtac aatggatttt cgacccgtct gataaagatg atgcagaagc tgtacgctat
+    12661 tcagaatggt tacaggatgt tattgaaaat aaaatgggtg atccgcgtgg tgcactccct
+    12721 gatgatacat ggtcagcatt tgttcagacc tggatagacg ttgatgtatt tggttggggc
+    12781 tggtatgacg tatgggtgaa agatttagat gatggttccg tgggtattgc ccgtctggtt
+    12841 cctgtagcgg ctgaaacgct ggctggctgg gatattgaag aaccgaccgg atatgtgcgt
+    12901 ggtatttatc aacgttcgcc taatcagggt acaacaacgt taatcacgcg tgaccgttcg
+    12961 ttacatctga tttcaagccc aaataaaggt aacccagaag gtttatcact gttacgtaca
+    13021 gcctatcgac cgtggtacta caaaaaagtg aatatggaaa tcgaatccat acttgctgaa
+    13081 cgtggtacag ggtttccggt aatcactgtt aatgcggata ttaaaaaagc agctaatgat
+    13141 cctaatgttc ctgaaccaca gcgtcaggca gcgcaggcga tgattgataa ttatgaaaat
+    13201 attgttgcaa atatcaaacg taatgaacaa tcagggttgg tgatttattc gaaaccttat
+    13261 attactggtt atgataatga aacaggtgtc actacatatg gtggcgaaca acaggtaaaa
+    13321 ctggaattca tcacgcctaa ccagaccagt tcagttgata tcgaccgtac tatcaaacgc
+    13381 ctggatacca gtattgcccg tgcgttactg gcagatttta tgtttttcgg aacgggcgga
+    13441 aataccggaa acaatgctaa cctgggtaac cgtactgaat tatggatccg tgcaatgcag
+    13501 tcacgcattg atagtatcat tgaatgtgta aaccgtcagt taatcccaca gttgtggtcg
+    13561 ctgaatgctt ttcctgatga ataccgtccg tctattcgtg ccgggtcaat cagtaaggat
+    13621 agtattgaaa cactgacaac agcacttgca cgacttgcac aagctggtgc gcctgtattc
+    13681 ccggatccag aactacagga attcgtttat aaagaggctg ggttacctac taagggtatt
+    13741 gataagaccg gggatggttt accatctatt gaagactaaa tgaaaaaggg accagtaacg
+    13801 gtcccttagt tttacttgac tacaggaggt tggacaatcg gaagcaattt gtcagcttcg
+    13861 tcaatagccg tctgaacgcg agttggtagc ggatagctag tgttgattac acgatccaga
+    13921 gtcttttcca gcaactgcag tttgatttcg tcgtcacctg tgaaagcgta catatcagta
+    13981 acgacttctt taaactgcga tgcactttcg gtgacagttt gtgtgatgat atatttccac
+    14041 actttgttca gaagtttaaa tttcacttca ttatcaccaa ccgcatcaac cagaatttca
+    14101 gcggctgctt tgtcgtactt aacaagttca agaatttcaa aacgcatttt taattatctc
+    14161 cgtcagttga tgtacttcgc gatcagttta tcacagtcat cacgacaggt agcgtattta
+    14221 aacaggtctg cagcggctga tgctttgtga tcgttgtcaa tagtataatg tttcgatacg
+    14281 taaacataag cagccatata attactgaac atacccgtgg ttacaatcgc tggttgttca
+    14341 ggggttaaag tacctttgaa cagccagaag attgttaaca gtacaccacc aataaccgga
+    14401 ctggtcagca acgaaataaa aaaccattta ccgggattac gcccggaatg tttagcgata
+    14461 ccaccgatca ccacgcaaaa caaaataaag aaaatccaga aagtcatatt tgttatcctt
+    14521 ttggtgtgtc gagtacaggt ggtaaaccta tagcagcctg aaccatgcgt ttttcatagt
+    14581 catcgcgcat tttttgaagt tgttctatac cgatatcaca cccacggatg atatcgccgc
+    14641 acaggtcgtt atacgtcgct tcagattgat cactgtgtgg gtaatcaaca catgacggat
+    14701 ctgttacaac aacttttggc aggtaagcaa tggtgtcacc aactgcgttt ttaaatatcg
+    14761 tcatatatat tctcccacaa ttgcggcaca gttgacgatt gctaaacgcg ttgctttttc
+    14821 acggtcttcc ccgtggttaa ttggttgcgt ataactaata cccgtatcag ggttattaac
+    14881 cgtcacccca ctgtcatgaa gatatagatc catatacagg gtaatcatca gactgaacgc
+    14941 atcttcatta tatgtaatag gattccatag gcgactatta ccaatatcaa taccttcatt
+    15001 cgcttcacgt tcaccatatg cgatgtagta tttaccctgg atttcagcag cccgtgcagc
+    15061 attgattaac agattgcggg tatccatcac atgttccccg ttgatccgaa accgccgtta
+    15121 cgttcactat caacgtcagg tagttcatct acttctacca ggttaacagg ttcgacacgt
+    15181 tcaaccataa gctgacaaac acgttcaccg tctgcgatgg tctgtaattt ctgtccgtgg
+    15241 ttagtcagcg tcacataata ttcttctttg taatcacggt caccgatacc gacacagtta
+    15301 atcagggata acccatgttt cagactgata cctgaacgcg gatacagttt aatgcagtag
+    15361 tcagcatcaa ctgacatttt catacccgtg gggatcatta cccggtcacc aggccatatt
+    15421 gcgataattc cggctaccac ttcacgttcc agttttacgc ctgattcagt gaacactgtt
+    15481 acagtttgtt cccacaggca agcgcgaaca tctaacccgg cactatgaag cgtggcacgt
+    15541 gtcggaagtt ctgccagggg tgtaagtttt ttgacataca ggttagtcat ttttcagttc
+    15601 ctcagtgtgt ttcttcgtgg taaatgttag tgccaacgct tgcaatgtgt caagaattat
+    15661 tttaaactct ttatcaacgt taaccgatag tgaggaacga atgatgtttg aacaacaaca
+    15721 cttaaacact aaagcagttc tgataccaaa aatgaaactt tctcaaaaca tgaaaaagtg
+    15781 ggaagatttc gatgatgcac cagactgggc tacatatatt gttcttaata acgtaacaaa
+    15841 tactttcgcc tggtctgatg gttctatgta tgctccgatt ttaagaaatc caccacaggg
+    15901 tattcacaag gttgatgatt ttgaaatcgt cgctaaacgt cctgcaggac cagcacctga
+    15961 cgtaacggtt acccgtgtta atgatgatcg tttacaacag tgttttactc cagtcactaa
+    16021 cgtaatgtga atcatcctga tcattataca cagggtgggg ttgaatgtat caatgctata
+    16081 gctgctgcaa cagttggtaa atctggaatt gaagaagcat gtgtcgcaaa cattattaaa
+    16141 tacctatggc gctacgaact gaaaaatggt gtggaagata tcaaaaaagc acgatggtat
+    16201 ttagataaat tgttagaggt taagattgat gaacggtgaa caggcttttg atctgatggt
+    16261 aaaacataat attatcgtga ttcattgtga tcgtgatcaa atcgtgttca ctgatgattt
+    16321 acgatatgaa gaatcatatg acggtgataa acggtcggca acattacgat taattgaacg
+    16381 tgttgcccgt gacagaggtg aacaactatg actcatacta ttcatgaatt attacccact
+    16441 acccgtggga acatcactga attagcccgt attcttgact gtgatagagg aacgcttcgt
+    16501 aagtatataa aagataaaaa aggtgaattt cacgttattg taaatggtaa gttatttgtt
+    16561 aaacctggct ttaaaggacg cattaagcat gactaaagac gaacagttat tacgtgattt
+    16621 agaacaggat tatgaacgtg cacagactgc tatagcttat ctggaagaac agatccgtga
+    16681 agttaaaaac cgtttacagg gtactgaaaa acgtgtcgta cagcgataac ttaaacctgt
+    16741 gatataatct gcctcagtta ccacgactga ggcttttcta tggcagttcg cgacccatac
+    16801 ccagacattg ccgataaata tgatgcacgg attcgtgaag cactgaacat agtgtgggaa
+    16861 aacgtgcgtc gttctgagtc attagccaac ttagaatata tcattgaaac ccagggtata
+    16921 tccgggttac ttcctattct tgacacactt cctgatgaac tcagtgcaga actacgccca
+    16981 gtcatcgaat cagctatcag tgaatcaggt cgcgtagtca ttcaggttct accgaaagca
+    17041 gcggttactg ctccgattgt attcagtctg gttacaccac aggtcagcac ttacatcaat
+    17101 aactatgtcg gacaactgat ccgtgaagtc agtgatgaaa cagtcaaagc tgttcaaatt
+    17161 gcagttaatc agggtgttgt taccggacgt aacccgcgtc agattgcccg tgattttcgt
+    17221 tccagtattg gactgactac acgccaggaa atgactgttc aacgattacg tgcatcactg
+    17281 gaagcaggtg atgttggtta tgtgaacagt ctgaccactg ttacagatag tgctaaaaac
+    17341 gctgtaagcg ccgggaaact gtcacaagcg aagatcgacc agatagttga acagacacgt
+    17401 ttacgctacg taaaacagcg cacagagaca atagcgcgta ctgaatcact tcgtgcagta
+    17461 tcagttggtc aggatcaggc aatacgtcag ggacagatta ccggggctat tagtaacgaa
+    17521 ttgctgaagc gttggttata cagaaaggat ggtcggacac gtgacgcaca tatttccacg
+    17581 ggtgaaacga atggttggat accgatgaac agaccgtttt caacaccgtt aggaccactt
+    17641 atgtttcctc gtgatcctaa cgggagtgct tcgaatacga ttaattgccg ttgccgggta
+    17701 cagtacagtt taccggaaga tatcggttca ctgggttaga cacgagcctg ttttaagtgc
+    17761 cattgagcaa cacaccagaa tgttgaacca ggtgcactaa aaccattaaa caagccacca
+    17821 ttgttcaaaa gatttttagc ggcgtttctg tgcatacgcc gtttttttac gtttgtctgt
+    17881 cattcctcta actcctgatt tacagcatgt tcaatatcag ccagtgcttt caattcatgt
+    17941 tcccaatatt cgtgattttc aaaatcttca tcacgttgtt tttgaagtaa gtcacgataa
+    18001 acatgaacat gagtgctgat catatcagca agatttgaat gacctttgta atctatattt
+    18061 ttcatcccca ttatcattcc ccggcgttat caggctgcat tgctatgaaa tcatcacggt
+    18121 aaagttcttt gacttttgca gtaaactctt tactacccaa ttcgtgacta aacaccggac
+    18181 gccccattcg tttttccaaa tcctcatgaa atttactgaa cgatccatgt agtaaccctg
+    18241 taaaaccaga taacacaaca gcttgttcta ctgttaattt actcattcct gtttttcccc
+    18301 acagaacgga cagtaagaca ttttcatatt ggtttccagg cgcgtgaagt tcttcgccag
+    18361 ttcaccatta actttacggg ctttatatgc aaggcgatat ttcagcataa cgtaagtttt
+    18421 cccagactct attccgaaac actgattatc ccagcccact ttatcaaaaa ggttggtact
+    18481 tacttctgaa cctgctggta ctttttccat cagacgtttt tgaagttcgt caccaacttt
+    18541 tttaatgcag tcacacatag ttttattcct tatttaaaag aacagcgatt gtttctggtt
+    18601 gagggtggcg gtagttaatt aactgttccg gcattttcat aaatttgttg tttgcgtctt
+    18661 tcactgtgac gaaacacgag tgaacaccaa acgcccccgt gttaatcgtt tcatcgtatt
+    18721 gatgcagaag ttcagacatt tgttcctgcc attctttagg catttgcatc atcgccacac
+    18781 gaggcatcac aagaaatgct gaatatgaca gcccgaacca cgtgtgtagg tcttttcgat
+    18841 aactattgtc catcgccttt acctttttga gttatgcccg atattgggtt gaggtaaaga
+    18901 taccctaccg tctgtaatcc gtcaagaact attttaaaaa tacatatctg gtaagacgaa
+    18961 actaaccatc atacatgaca tggtttgcat actcttagat gcaacaacag tacatatctg
+    19021 gttatctgta acatagattg cacacttctt gtatgattac tttttaacca gtctttctct
+    19081 atcttattat ttttattata tttttataga tagtataatt agtatagata atagtaagag
+    19141 tctataaagt aaggttagtt acaggaacaa gggtaagatc taaaagataa gaaatcaggt
+    19201 ataaaatcta tgatatcatg tacccgtggt taactcgcga ggaaccaatc aatgattgaa
+    19261 gtaaaagtaa acaaggttga tccacagcta cgcatggttt ttggctgggg ttcaatttgt
+    19321 aaaaaacgca acccggaaac gggtcagtta gaaatctata ctgacaccga caatgagcaa
+    19381 ttcccggaag acgttaccct gaaagcgtgg ctggatttca tgaacggtga tcaacggatc
+    19441 atggacaaca tgcataacga acaacctgtg ggtaaggtcg tatttgcatt ccctatgacc
+    19501 gaagatatag cagcctgttt tggtctggtt gaaaaacttg atcagacggg tgttattgtt
+    19561 gggacgctaa taactgatga tgatgttctg aaaaagtttc aggaaggcac atatacaggt
+    19621 tatagtatcg gtggaacggc attttatgag gacgtagaat aatgcgtact gacggaacca
+    19681 cccatttacg ccgcgctaaa tcaatgaaaa ttggtttcct gtccggcgtt actaaacctg
+    19741 cacatgaggg cgcgaacgct cttatgttga aatctcacag tgaaccacct gcagttgttc
+    19801 ttttaaagtc aacgtttagt gctgcactgg ctgaaaaaga acttgaacaa aaagttcgcg
+    19861 atttcctttc taactcatgg atgctgaatg atgcacttta tgaatcagca gaggatattg
+    19921 cgaaagatga ttcaattacc gataaacaag cagcattgcg tgacgcggta aatgaatata
+    19981 ttataacgtt gcaacaggcc gctggtattt cgctgaataa agcgaaagaa ggtaaaactg
+    20041 aagatggtaa agttttcccg gcatctgatt acgcttatgt accggacccg gaaaaacctt
+    20101 caacctggaa acttcgttta acagttaccc ctggcggtga acctgatgcg cgtattgtag
+    20161 gcgctgcact tgctgcatta ggtccgggtt atcgcggtaa caaagttgaa atccctgaag
+    20221 ccgacttagc aggtgtgaaa aacaaagtcc gatccgcgtg gaaaaaatta cacccggacc
+    20281 aggaagtacc tcaagtttta aaaacggcag aggaaatcga aatgtccgaa ctggaactgg
+    20341 aaaaatacaa agccctggct gagatgaacg acgtccataa ggcgtatcat aattctctgc
+    20401 ctgaatctga tcaggaagca ttccgtaaaa tggatgcgac tgctcgcgat gccctcgtga
+    20461 cgatggctaa acaggctgat gaatcgttta ccacgattgc gggtcaggtt gttcagaagt
+    20521 ctgtagctgg tccgatgtat gacgttctga aatctcagga cgaacaactt cgcaaagcac
+    20581 agactgaagc ggcactggcg aaagctgaaa aaaccgtgaa cactgatttc gcacacattc
+    20641 cgggtgaaat ggtacagaaa acccagatgg ttatgactct tgagcgttta ccggaagcgg
+    20701 atcgtaattt cctggttgaa aaactcaaac aggccgacga actctggaaa gcacgtaaag
+    20761 agccagccgc gccgaacggc agtggtaaag gttccagtgc actggaagac atgatcaacg
+    20821 aatggctgaa agcaaatccg ggtaaaacac gcacccaggc tatgcaggcc gtttctgcaa
+    20881 ccaaaaaagg tcaggaagca atcgaagcga tgcgaggtga cgaataatgg ctaagaacag
+    20941 caaaatctac tggaactatg agcgcccgac ccgtgccgtt gcatccgtgg ctatttcggc
+    21001 aggtgttggt cttgttctgg ataccagttt aggtgacact aaccagtgtg tgcctaaata
+    21061 caaactccca acggctggcg gtcgtatcga cggtgtagct gttgatgatg ccactgctgg
+    21121 tgtattcttc gacctggtaa acgaaaaaga aaaatttgta ccagtaaaag catctgcaac
+    21181 gttcggtaca ggtgtcgaac ttgctgttgg tgctgacgga cgattccaga ccgctactgc
+    21241 tgaacaactg gttgtggcta tttctcaaac tggtgccact gctgaaaacc aggtagttac
+    21301 cgcattactt attgcaccgt attctaaagg agcataaccg atgagttaca aacagaattt
+    21361 tcgcgacgtt ggcgcaccag atacattcct gtctaacttt tctgtaagtt actggcagga
+    21421 tacatcactg tttgtcggta ctcgttattt cccggtagtt cctgttaatc aggctgctgg
+    21481 taagtttctg acttacccga aaggttattt cggtcgtccg gttaactcaa aacgtgccga
+    21541 agatggtgtt gctaatacta ttggttacaa aaccaaaaac cagggttaca ccgttgatga
+    21601 cgatgcgatc cgtatcttca tttctgacaa aaaacgtgca aacgttcaga acggtcagca
+    21661 actggatatg gaagcatcag cagtaaccac agatgcgtta ctgatcaaca aagaagtgga
+    21721 ttttgctgaa aaattcctga ccgctggtaa atggggtctt gatttccagg gtaaagattc
+    21781 gtctccgtcc acgggcgaat tcctgaaatg gtctaatgcg aatgccgatc cgattggtga
+    21841 catcctgcca cgacgtgttg cgttctctct ggcatccggt ggtcgtcgct ggaacaaagc
+    21901 actgatgacg ctggacgtgt atgacgcact gacccgtagc ccggctgtta ttgaccgcat
+    21961 taacggtggt tctaccactc agaatccggg aatagtgact aaacaggcac tggctgcact
+    22021 gctggaagtt gacgaactgg aaatcatgca gtccgtggtc aacatggctg ctgatggtgt
+    22081 tgaagacggt gacggcaatc cgctgtcaga cttccagttt gctaaaactg gtgtgctgat
+    22141 gctcaactat gttgaaccga ctgttggcaa tatgaaacct gttgcggctg cgggcttcgt
+    22201 gtggaacgag ttcatcggtc tgggcgttaa caacggtccg tctatccgta cctatccggg
+    22261 tgtcgaaggc cgtcgtggta atttcgttga agcggaattt gccattgatg ttcagatggt
+    22321 tgcacctgac ctgggcgttc tgttctacga cgcggtttaa taacaactgt gatatcatta
+    22381 aggggtggct tatgctgccc cttttttcat gaggttaaaa tcatgcgtaa ttcatatgat
+    22441 ccgtcactga aatatgtttt cacccgtccg atgctgtgga acggtaaaca gatgtccgct
+    22501 ggcgataaag tatcaacatc aaaagctacc ccggctgttt taaacgccct tgtgcgtatg
+    22561 cgccacattg aaccagctac tgcgaccgtt gaagaaccag tgattgtagc aaccgaagaa
+    22621 tcggcatcaa ccacagctgc tgaaatccga cgtgacgcgc caaaaaccta taacgtttat
+    22681 gttatgggta tgccgatgaa ttcagaatcg tttagtagta aaagtgccgc tgctgaatgg
+    22741 tgtgaatcac aaggcttgac atataactat tcttgaccta ttgttaagtc agtgacagaa
+    22801 ctgcatagca gacgctatca cttaatcggt cgaaagacgc cggataaacg taaccggcac
+    22861 acaacaggta agagcattgg gtaatgtaaa gctgtgctgc gacgattatc atacatctca
+    22921 gtgctcttat cgttgtggtg aattgcagtt ctcagaaaca accagaagat aagcgcctgg
+    22981 caccacaacc caaacactcg ctgataagga ggtgaccctt atcttgctgg cgggaaagcc
+    23041 gcaaatcgtg ggtaaagcat gttgtgaaac atcctgaact gcgtgtcgtt ttacataact
+    23101 ggttattcac gtgtcacgca taggggtatg ttgggacgtc aggtgtggat gaccagttat
+    23161 gtaaaaccct cattatcacc cagagccatt tgccgtctgt ttaagacggc tttttttcgt
+    23221 gctaatataa cgaaaacatt tctcacaggt gatcacatgg ctattacagt tgaaggtatt
+    23281 cgttatttga tcagtgtccc tgatgttact gatgaacaaa ttcagtggta cattgacaac
+    23341 ggttatacaa atcctctcag tatttgcgtc gctctctgtg attatatggc gtctatcgcc
+    23401 agcaatgata ctgatattaa agtaggtccg atctcactca gcagtagtca gtcagcagac
+    23461 gcctggaata aacttaaaaa agattttatt ttacgtatta atactggcgc tgattcaggt
+    23521 ggtggtttgt taggtagttt tatgggtgtt ggtggagcta cattaactgg cgctggtatg
+    23581 caacctgcta ttcaacgtgg tcagttcgac aacccacctg taacacttga aagcggtggt
+    23641 cgtgcactta acgagggtga acggtgatgg cagacaaacg tcaaagtgtc ctgaacggtg
+    23701 ttactcgtgc acttgctgaa gtaggtgagg atttgacggt aaaacgtgtg acaacggttc
+    23761 ccaatccgtc taatcctaca ttaccgggta caaccgttac tgaatcacac acctgtcgtg
+    23821 gttatatcta cccgttggaa aaatgggatc cgactactat gacccgaata accacgacga
+    23881 tggtaattat ggatagtcag agttttgaac cacgattcgt tcctgatcgg ggcgatattg
+    23941 tagttgatga acgtggtaaa gaatatcgcc ttcttgatcg tcaaaaccca cgattgttag
+    24001 gtgatgatat ggcgtttatt caccctgttg gagcggcctg atatggctaa ggctaacgtt
+    24061 aacgatataa accggataac aggtgtcttt aaagacatta aagccgacct gcgagatttt
+    24121 accgatcgtg aagtcatccg gtatgtcctg acgttacgta atattcttgt cagtgaacca
+    24181 cctgacggta cacctgtgga tataggctgg gcaagtaaca actggtggtt cgatcaggga
+    24241 caacccgcta atagtcctga tacaccaaca ggtaatgttg aagccagtaa agcacgtatc
+    24301 gaacaggata cggtcactat cagcagtatt aaagttaatg gtcaggaact gcatattact
+    24361 aacaacgttc cttacattgg ggttctcaat ggtggtagca gtacacagac accttccggg
+    24421 tttgtcgaac gtgctatatt aaaagccgga ataatggtga ggtttaatca gtgatgacac
+    24481 tctcagatgt ttcaggaatt gtttataatc gcgttctggc gaatcttccc gtggaaatta
+    24541 cgcctgacag atttacaatc gcttctggtc aactccctga tgacactaca gaaaaacccg
+    24601 gtctgattct gacacacaat cccggtccgt ggacaataac cacgctgggt ggggaaggtg
+    24661 tttgtcgtcg tcgtttaaga acaggaaacg tttttttaca ggtacgcaca cctgctcagt
+    24721 atggtatgga cactttgagt attgatattg cggatcggct tgcaaaatta tttgaaggta
+    24781 tctggcagga tcgcccgtta atttacacga gtgttgatat tcgtcatcag ggtcgtgata
+    24841 acgcgtggtt tttaacaaac gtcgtactta gttacgaata cgaagaaata tattaaacta
+    24901 cgaatgattg caatcaaacg aggcttagaa caatggctga atcaattttt aaatgttcgc
+    24961 aaacacctgc ggctgatgta aacgcaacac gactcagtgt ggcaaaagtc tgtgaacctg
+    25021 tttctggtac accctggacg gttcaacaac cgaacgaaat cagttcttac agtgctgata
+    25081 ttacaaagac tcagcgtaca ccgatcagta cggaccgatc tgcacgtaaa ggcacggtaa
+    25141 ctaacgttga agttgcaccg ggttttcaga cagacctgac acttgatacg ttccgctact
+    25201 ggggtgacgg gttcctttat agtaaatggg tcggtgctgg tgcaattgat attgacgtta
+    25261 ccagtgttga tactgacgct tataacgttg ctactcttga cgcaacattg cctgaaggtg
+    25321 cactggttta tgcaacaggt tttacactgg ctgcaaacaa cggtttgaaa actgtaggcg
+    25381 ctgatagtac cactactgct atcaacgtgt cagggcttac tgctgaagcg tcaccgcctg
+    25441 ctgaagctcg tttgtatctc gtggggtatg ctgcagcgtc tggtgacatc gctgttaaca
+    25501 gtaatggtca gttgacgtct gccaccctgg atttttccac actgggttta gtaccgggcc
+    25561 agtatattta tattgacggt ctaacacagt cggttaccag taaaatggcc cgtgtgacta
+    25621 tggttggtga tcatgttctg actctcgcta acagtgaatt caccactgaa gaaggtacgg
+    25681 gtaaaactgt acgtttattt gtttccagtt ttgttcgaaa cgttcctgtt gactctgcag
+    25741 agttcgttaa aactgaatac acaatggaag cacgttacaa cacgacacct gtcatttatg
+    25801 aatatgcgcg tgctgtagct gcaaatcaga tgacgatcaa cgcgtcgttg actgaaaaaa
+    25861 tgacaatgga tctgacgttt gtcgcacaag acttgtcagc accgtcagaa accgcgttac
+    25921 cgggttccgg gtatattgaa ttcgtggcta acgaagcgta caacaccgta acgaacctga
+    25981 accgtgtacg actgaccggg attgatgata gtggcctcag tacgttcctg aaagacgtta
+    26041 ctgtcaccgt gaataacaac gtgtcaggtg aaaacgtgct gggcgtgatg ggtgctgcgt
+    26101 ttaccaacgt cggtaacctg gaaatcacga tggaaactga aacggtgatg acggacggtg
+    26161 ctgtactggc tgcgatccgt aacaacgcaa cagtcaactt cgaacttgcc ggggtaaacg
+    26221 gtgatggtgc aatcgtggtt aacatccctg cgatgacact gggtgacggt tccaagaacc
+    26281 ttgcgacggg cgaaaaagtg aaagtcactg ttagcggtaa cgcccacgaa gaagagtcga
+    26341 ttggttttat gattggattc agcttgttcc cgtacttgcc tacagcatga catggtggat
+    26401 ggtagttttg ccccggcgtt aaaccggggc ttttttattc atacatactg aatttgttta
+    26461 ggtgaaaatg gtttatcgta cttaccgttc ccttttaacc aatcaattag ttgtttacgt
+    26521 aaacttttac ggaaatcaga acgtaaatta ctgttaagaa gtttacaaaa tacagggaac
+    26581 atatctgggt gatataattt ataaagtttt tcaacttgtt cgcgatcaac accaaattca
+    26641 cgtactatta atctaaactg tgcgttcagt ttgcgttgct tgtttactct ttttattttg
+    26701 caataacgtt gccgtttttc ctcttgctgt tgttcataaa tattatatgc ttctaaaact
+    26761 tctggtgttg catctgggcg tgaaccatag catggataac accaaccacg ggtagttgca
+    26821 aatgtatacc atgaagcgct ttttgtttca gggttccata ttaacatttc aaaatctgaa
+    26881 tcatggtaac cgttacgttc acgttctttg atacagcacc catgatcagt ttcgtataga
+    26941 aaataagatg gtgggtaatc gccaccaata tcattacgat ggataggact atatgcccct
+    27001 tccaggagtt taacatttcc ttcaaaaaca gaactatgcc aacccatgtt aataatcgcc
+    27061 atccctctta ccctcagttc gtttcgttga ggtaaagata acctacagtc tgtaatccgt
+    27121 caagaattat tttaaatctc ttgcgtaatt tgtacagaac tattactatc taatcgtcta
+    27181 ctacataaaa ggtaaaaatc atgtcaaagt ttgaccatct gaaaaaagca ctttctccac
+    27241 tggtgctgaa gtcttctgct gaactgattt taaatgagaa tttcagtatc actgtgttga
+    27301 acctgaatac tgctaatcag gtatataatg caacagtcgc ggactatgta aaacagaacg
+    27361 gtgtgttgtc tgaaaacttc tttgaaaaac tgtggaatca ggaatataca ccagaaggta
+    27421 ttaagttcgt ggctaatgtt cttatgctgg actggaaact gattggtgaa gatgacaaac
+    27481 cggaaccatt cagtgttgaa gaagctattg aactgttaag tgatgaacgt ttcggtcagg
+    27541 tgatctacag tcgtgttatt cagttcgcaa ttaattccgc attcttccag gacgaatggg
+    27601 aaaaacagat tgaaaaaaac tgatcgactt cctcttgtgg aacgataaga cagacgggga
+    27661 cgacctggac tgggttacac aaggggcggc tgcacgtggt atatctgttc cggttgttgt
+    27721 acagaaacgt cctgaattgc gacctgatgc tatcttttac tggaatgctt ttttagacct
+    27781 gatagacgct gagtgggttg cttgtgagcg atatgcacgg gtgtataacg ttgatgtaca
+    27841 attcctatgg aaattattga tagcattgcg gtctgcacgt gttgccgaga tgaagaaaaa
+    27901 taaacataag cccggttagt tccgggcttt ttcatatatt atggttaacg tgttaaactg
+    27961 tgtacatgct tcacgaaaag gttaaccaac atggcacaat atcctattga tattaagatt
+    28021 gacaccggtt cggctgaccg caatcttaat aatcttaaca gtcagttaga tcagactgaa
+    28081 aaatcaacca tagctgctgc acaggctgct aatcagttat ctgtggttga acagcaggct
+    28141 gcaaaagcag cacagcaact ggcacaacaa caagctaatc aggctgctaa agctgttgct
+    28201 gtagctaggg ctactcgtga agcagcacaa gaacaatcac gcctgttagc aacacagggt
+    28261 gctgctgctc gtgcggctgg tcagactgtt aataatcaac agaaatttgc tgaattagcc
+    28321 aaaattatca aacaagcaac tgctgatgaa aagaaagcaa ttgacgatct gactaacagt
+    28381 cttaaaaaac ttgataatca gcagaataac actaatcaat caacacaaaa aacaacaggc
+    28441 gctcttgaaa cacttgtcac tggtgcaaaa gcgtttgtcg gtttacagat tgcaggatcg
+    28501 ctttacgact ggggtaaagc ctttgtagat actgcaacga aagtcgaact gctacaaagt
+    28561 cgtatcaatc tgtacacatc aacgtctgtc gaatcacaac agatatttgc acaattagta
+    28621 caacaagcta accgtgctgg tacagatatt gacgctgtgg caaacagttt tcagcgtttt
+    28681 gccgctgctg gtaaagatgc cgggattagt aatcaggtta ttttacagtt taccgacaac
+    28741 ctgcaaaaaa tggcccgtgt atctggcgca tccagtgctg aagcatctgc tgctatctat
+    28801 caattatcac aggcatttgc atctggtcgt ttgcaggggg atgaattccg atctgtgtca
+    28861 gaacagttac caactgttct tcaggtgctg gctaaacaga tgggtgtcac cacgggggaa
+    28921 cttaaacagt taggttctga tggtgaaatt acccgtgata cactgttatt gttaaacaac
+    28981 gcgactgatg aaatcagcgc acagttcgat aaacttcctc gttctgtaga tcagtctgcc
+    29041 actgcgttac gtaacaacct gtctgtggct attgctgaac tcgatcagca gattggtgcg
+    29101 tctaaattcc tggctaaatt cctggacctg ttagcaggtg gtgtatcggg tacaacagag
+    29161 ttaataaaag ccgctgcagg tgctaacaaa ctggcacaag ccactaacaa tctgaacagt
+    29221 gttaccgcaa aacgtgaagc caatctgaaa gaaattgcag atctggaagc acaaattcag
+    29281 cgtgggtata caacacagtc aattggtggg tatacaaaat ttgttggtga tacaagcgct
+    29341 gcacagaaga aattaaacga acttaaaaaa cttgatgttc agttaacaaa acaacaagca
+    29401 gaagcacaaa gaggggttgt tcaggctact ccgttgggta agggtgttgc tgaaaatctt
+    29461 gcaaatcagg caagcacttt acaggcgagt attacggctg ctcaggctgc cggacgtcct
+    29521 gatgccgaat ctgcaaaaca gattaaaaac ctgaaagaac agatcaccta tacacaggcg
+    29581 cttgctgacg gtaactatga actggcagca agtcagaaac tgggtaacaa agcaacaaag
+    29641 gaacagattg cagactacgc cgcgttgctg aaacaacagg cagaatataa agaaaatcaa
+    29701 aaaaaccaga agaaattagc cagtgctgaa gcatctgcgg ctaaacgtgc acagaaagaa
+    29761 ctggaacgta atcaggctgc taaccagaaa tacctgaaaa cgcttcagga taaaatcaat
+    29821 gctggtaatt atgatgttca gttagcacgc gaacaggttc agattgcttt aacacagggg
+    29881 tcgtctgttg aacaacttac agcaacgtat cagaaagaat atcaggtacg tcaacagtta
+    29941 acgctggcat cacaacaggc agaagcacaa tcacgactga ataaagacgc gactgatgct
+    30001 gaacgtgccg ctgttgatgc acatgtggct gcattgcaac gacaacagca gatagcacag
+    30061 ttaagcgcag atgtaaaaca agttgacatt gatgtgaaag cacagttgaa cccgtatcaa
+    30121 tcacaaattg atcaggttaa tcaacaggaa gcaacacgtc ttagtattat ccaaactgcc
+    30181 cgtgaacaag atttaatcaa cgagcaacaa taccaagata tgaaaacgca gattcaacag
+    30241 gctggggaac aagcccgtac gaatcttgca aatgctaact acagcttgtt gctacaatcc
+    30301 agcgctgatt ttttgggcca aatggctgct ggtctggcac aatctaaagg tgagcaatca
+    30361 aacgcgtata aagcgatgtt tgcactgtct aaagccttta gtatcgcaca ggcgagtatt
+    30421 aacctgtgga cagccgttag tcaggctatg gcgttgccgt tcccggcgaa tattccgttc
+    30481 attgcacagg ctttgtcata cggaacaagc gtattaggta acattcagtc tgtggctgca
+    30541 acaggttttg caacgggtgg ttatgttaaa ggcccgggta caggtcagag tgacagtata
+    30601 aacgcacgtt tgagtaatgg tgagtttgtc agtaccaaac aggctaccag tcgttatcgt
+    30661 agcactctgg aagcaatgaa tcgtggtaca tatacaccag gatctgaagg tggttcgtca
+    30721 cctaatattc aggttcataa ctacggtggt gaacgtgttc aggtgaaaca aggattaaca
+    30781 cgggatgatg tagtgcttat cataggtgaa gaattcccac gacaatcagc ggcacaatgg
+    30841 aatgacccgt acagtcagac aaataaagcg ttcaggtcta actatgatgc gaacaggaaa
+    30901 atataatgag caatacagat gatttaccac ggcttgagta cggcgcgaaa atggtgttac
+    30961 ctgagcgtga taattacagt tatagtccac cgtggggtgt aactaaatct gatatttccg
+    31021 ggacgctatc acggttaggt cgtagcgcct ttggtggccc tgctcaggta tcgtgtacaa
+    31081 ttcagttata tagtcctgcg atgcttcagt ggtgggacga tttttataat ctggaaatag
+    31141 ctgaaggtag taagcggttt gtgatgcaac tgtttgtgaa cggtttgatt caggaacacg
+    31201 ttgttcagat tgtcagtaac ccgtcatcct ctgttgtagg atggaaagga tctgtcgatc
+    31261 tacagttgca agctgttccg gtaatcgacc gttgcgcaat ggcatcacga ttgttaataa
+    31321 ctaaatgcca gggtgattat gctgcttgtt accttaaaga aattattgat actggcttac
+    31381 tcttaaataa cgcgtggaca ccagaatgaa agacgaactg cgtgaattat taaccgttgc
+    31441 aacaactggt aaaggtgttg ttgacggtgt gaaactgaat catagttcat ggcccaatcc
+    31501 gctatacatc accagtgttt atccgggatt tatcgctgtg catgaagacg gtaaggaata
+    31561 cgagtatgag tacgttccga tgtccgtcaa gaaggcgaat aaacaaaacg atttatcaca
+    31621 ggattattca ttcactattc aggatctgaa tgaagttgtc ggtgtatatc tcgacttaat
+    31681 tcctcttgac agtaatgaaa aaccatctgt tgagttgcga acgtttgttt accgtgaaga
+    31741 tggttccatg tctgatattc aggatggacc atatcttctg gaatctggcg atattactac
+    31801 cgaaccacag ggttgtacgt tcacagcatc accacctatt acaaacttcg ccgggacagg
+    31861 tgaattatat acgtttgaac gttttcccac tctactggcg tatgcaacat gatcggtgac
+    31921 cgctacgata ttgataaatg gaattgtaca cacgaggtca gtcagtggta tcaggtgcac
+    31981 aattacccac acgtattgaa aactgtttca ggtgatgaat gggatattgc gtttgtcaga
+    32041 tggatgcgaa aacgtttttc accaattacc acaccggaac aaggcgcgct tgtactgatg
+    32101 aagaaccgat attcaggcgg ttttcatgtt ggcgtgtggg attgtggaat ggttcatcat
+    32161 tgttatcagc cacctggtga ttcaccagga cagacaatca gatcaccttt aagtataatc
+    32221 aagacagcac ataaagaaat cacgttctgg agaatgaaaa gtgtctaaag tcatctatca
+    32281 cactaatcct gttgaacacg cggataacgt tgactttggt gaatggatgc tgaaacgctg
+    32341 gcctgtgggt acagttcgtc cgcgtgggtt actgatttat aaaaacgacg aaaacattac
+    32401 ccagaaatgg gtcactgacc ccagcgtatt aactgatcct gatgctgttt atcacattta
+    32461 tgaattacca aaaggtgggg tggttagtgc aataacgaaa gttattagca caattttaaa
+    32521 ccccatttta aaattgttca tgccgaacac cagtgcgtcg gctaatctta aaaactcacg
+    32581 ttcagcatcg tctaacaacg cgcttcaggg gcgtactaat gcttcacgac cgggtgaacg
+    32641 tatttctgat atccgtggtc gtgtactggc atatcctgac ctgttaatgg actaccgaat
+    32701 ctttattgac cgaacagaat atgaagttca gtttctgtgt ctgggtgctg gtgaatacga
+    32761 agtcgaagac gttcgtgacg gtattacacc tgctgtaaat atcagtggtg aaaaattaga
+    32821 cttttataaa aaaggtaatg caccagggta tggttctcca tatatgaata tcggtggtgc
+    32881 aattgatatt aacacttttc cgatcatggt tgctaagtca tcgaacgaag cagacggatc
+    32941 tgaagtcaag ccaccaaact atgctgatat cagcaaagcg agttttaaag tttacagcac
+    33001 aggtgaaatt gatactacga tttctagtga tgataatact acgattgatt ggtctgaacg
+    33061 tgcaccaatc ggtagtaaaa tacgtttatc gcaattttac agttttacac ctaatacttt
+    33121 accgttaaac acgtatgtac gtaatgatct atccggtgat tacgatgtta tttatgcagg
+    33181 tgagaatacg ttaatcattg atactactgg tcgtgaaggt tgggatgctc tgtctgaaag
+    33241 tggtcaggct gcatatacac aggcttattt gcgaaacgat ggttactggg aacttgaaac
+    33301 cactaaagga agtggaagta ttttatacaa gttttcaccg tctcttgaca gtaccacgcc
+    33361 gtatattgtc gggccttatc tgattgatag tgcggataag ttgatgatta acctttatgc
+    33421 acaaaatggc gtgtataaaa ctgatggcga catttatccg tttacctgtg actttcaggt
+    33481 agttttgtcg gacccaaacg gtgtgaaagc gaatgtgaca cattctatgt ctgttagtgg
+    33541 tcgctataca gaagctgtag gtagttcgtt aattgtgaac aacccttttg acggtcctgt
+    33601 taacgtgtct gtaagacgac tgtcaaatac agacaaagat ttcgaagggt ctgttgttga
+    33661 taacattaag tggcgcgatt tatacgctat cacgaacgtt tccccgcgtt cctacggtga
+    33721 tgtgacattg atccatactg tgacaaaagc aacaaacgct gcactgaaac aaaaagaacg
+    33781 taaattaaac atgattgcaa cacgtgtgta taacgatgtt gcaagtagta attttgcaga
+    33841 cgttgtaatg tcaatgcaca cagatccttt atttggtcgt cgcacattag acaccattga
+    33901 tcgtgatgct ttatatgctg ttcaggcaca aattcttgaa tattttggtg accaacgaac
+    33961 aattgaagtt ggctatacat ttgataacaa cagtacgacg tatgaagaag gattggacac
+    34021 tatctgtaac acggtgaaca ttaaaccgta tcagatcggt agtgtattgt atttttggcc
+    34081 tgaattacca caggagcagt ctgcaatgca attcggtcac gcgtttaaga ttcctgacag
+    34141 tgataagcgc acacgttctt tcgcaccacc taaagaatat actggtgttc aggttaaata
+    34201 tttcgaccac gatgaaaaat cgtatttgta tgtaactaaa ggtgaagaaa caaatcttaa
+    34261 caagattgat cttgttgcgt gtcagtcgcg atatctagca aatatccgtg ctaatcgtga
+    34321 gatgaataaa ttacgttatc aacgtattac tcacgagtgc acagcgctta gtatcgggtt
+    34381 acaggctacc ccgggcatgc gtgtggatat gattgacaat acccgtatga aacaacacga
+    34441 aggtattgta gttgacgttg acggtttaac acttattctt agtgatcctg ttacgttcac
+    34501 cacgggtaat acatacagta taacgttgac acaccgactg ggaacacttg aaaacattcc
+    34561 tgtaactgct ggggatgatg aattttcagt ggtaatggct tatcaaccat ctgaagaaat
+    34621 ttacactgga tggttgcagg acaggacaac gtatgtgatc cgcactgatg atgaacgtag
+    34681 taagttagca atgttggttc agagtatgga accatccggg agagataata attatcaggt
+    34741 agggttaacg tgcatcaatt acgatgcacg ttattatcag gatgattaac ttgctgtatc
+    34801 ctgctataat attaccaatt attgctaatt aaaatcaaca aaacctttta ttacaaacga
+    34861 tgatgttgaa gttagaagtg aagagaagtc ataaagaacc ctccctccgt cagttcggta
+    34921 aattgctatt tgatcctgat ttgataaatt taatgaagcc aatggaatta cgccatttga
+    34981 taatattata ttattccaat agtcaacaat aaacattgat attgagcttg ttttcccact
+    35041 cattcctgga agataggcga tatttaacat cccacttggc gatgatattg aagatacatt
+    35101 tactgttata gaaaaatcta ttctcttacc agttgcccta aagactcctg tacttgatga
+    35161 cgataggctt atacttccac ttgcaggaag taggactggt gtgaacgaac cagtgactga
+    35221 cagctcaaat ctgttagacg taatcaagtc aggggaagct atataaatat caccagcttg
+    35281 agatagatta ttacctgacc caaaaacatt accagttgcc ccagtaggta ctgttatacc
+    35341 tgcattacct ctagggtcaa tacaagtatt agagtcgatt gtgttcccta cacaagcctc
+    35401 gccatttgca ccagaagcca gactaataca aatatgaccg cctgggtagc ctgcaaaaat
+    35461 tacatcatag ttggcatcaa accacgatgt attaccaact actgagcagt tactaacacc
+    35521 tgcaagccag atattatttt ctcggttgtt ataggtattg ttacccttga caatgtttct
+    35581 gagtacatca tttgttgccg atttttcaga aaacaaaccc atatcaatac cacggttcca
+    35641 gcagttgtaa actgtgttat ttacgatgat gttatctgtt gaataaccac cattcccacc
+    35701 aaagtaaatt ccactctgtc cacaggctga tacctcatta aaagcgatga catatctgtg
+    35761 agcattctcg gatactatcc catcccaata gttactagcc aaactccagg gtctagcctc
+    35821 cccggatgta aggtaattat tggttatatg gttcttaatt acgcgacctt cagtaccacc
+    35881 cagagctaca cagaactttg agtttgcata gcatttagcg atgacagtgc catgcccttt
+    35941 atcataaata ccatagccta caccatcagc atctgaggta tgcaaacctt ttgcaaagaa
+    36001 gccggtaacc tctgtaccag taataaagca gtatgcagca ttctcatcaa agagtacgcc
+    36061 atcctgtctt actgttgtag agtctggtaa gtttttaccc aggattttac ccccaaacca
+    36121 accagaattg gcccccgtta tttttactgc atatttacct gctggtacat cagacttaac
+    36181 acctgagtca ccagtaagac acttaacatg caacccatca ctgattacca gtgtatctgt
+    36241 gatcatgaac aaatggttta atactaattt tttacccttt gatatacagt gcgctattgc
+    36301 acttttaata gctactgttg cgtctgtaac accatctgta gcggcattga aaggggcgtc
+    36361 tgttgggtat acgacatttt gaagatgcgc tcctacactg tcattaccat atgtatcagt
+    36421 atgtgagaaa ttgattaccc cttcattatt taactcatct cttaatgtcg catcaccaac
+    36481 actcaaccat gcacctgagc ctacaccacc agttgtcgcc ggagttgaac cagcagctac
+    36541 agttttaggg aaatcaccat cccagcgata gtattcaccg tttgtttcat cttgtagtac
+    36601 ttgatttggt aacgttaatt ggttaccggg tagtggtgca cctgtctgaa aactttttag
+    36661 tgttatataa cctacctgtg atattgcttg attatataag tttttaagtc catctaatgt
+    36721 tttgttagta acagattcac cacggatagt atctgttact tccagtgcgg ggttaccagc
+    36781 agcatcacga cttttcgcca catgctcaat gtgtaaaatc gcttgtttac ctgttttcaa
+    36841 atcatctgcg ctgatataat cattgcaatt agccatcttt aaaccctctg gggagtgtgg
+    36901 aacaatgtct gagaatccat tgctaaagta ttggcccatt ataacattta ttgtgggtgg
+    36961 tgcggtaggg tacggggtac ttcagaatca ggtcaacgca acagctaagg atgttgcaga
+    37021 tactaagaca caggctaatg acgcatataa cctggctaaa cgcgtcgaat cccgtgttga
+    37081 tgtgcatgat gtaaaaattg aatatcaggc aacacaaaat gctgaaattc tcgctagtgt
+    37141 taaagagtta acacaatcaa ccaacgatct gaaagtcgtt attgaaagtc tcaaagtcga
+    37201 acaacgccga accgggagta atcagaaatg aataaattca gccagagaag tgaaaataat
+    37261 ctgaagggtg ttaacgcgga tcttgtgaaa atcgtgcgtc gtgcacttca attatcaccc
+    37321 gttgattttg gtattacaga aggtcttcga actgttgaac gacaacgaca actggtcgcc
+    37381 gctggtaaaa gtcagacaat gaatagtcgt catatcacgg gtcatgctgt tgatgtgttt
+    37441 gcctacccta catcagccgg atcatgggaa tggaaatact acgaacagat cgccgctgct
+    37501 tttaaacagg ctgctaaaga actgaatatt cctgtcgaat ggggcggtga ctggaaaacc
+    37561 ctgaaagacg gtccacactt tcagttgcca catgccactt atcccgcgtg agatagctat
+    37621 catggataag ttcagcatat tacgtaacac aaccgggggg atctctttaa gccgcgcaca
+    37681 agcggcttta ggcttccttg tggttacagg tattcttatt tatcaggctg tcgatcagac
+    37741 acttgataat acggtgttat taacctattt cggtttctgt atcggtcagt atgtcggtgc
+    37801 taaaaaaatc gcagtagaca aacagcggag tacaccgaat gacaatccgt agtgttttaa
+    37861 tcactgttgt tgcaactgtt ctggtattag gtgctggtgc ttatacctgt tatcaggctg
+    37921 gttataaagc acgagtaaat gaagaaaaac aggaacgtct gaatgatgct gaactggaac
+    37981 aacaacggtt aaaagcacaa caggaactgg ctggtgatgt acttcgtggt ttggctgact
+    38041 ggtcacagaa tactaaaatt gtggaaatac ggcatgaaaa aactaatact gtttttcgta
+    38101 atgagtgtct tactcctgaa tatcagcgcc tgtacaacga acgagttacc gaagcagaag
+    38161 cccgtttatc aggccgcgtt agttcagaag tgtcagaccg aaaacctccc acggttaaac
+    38221 ggtctgacgg gaactgattc aacagatgtt aacgatgcat ggttagatat ttatttcaag
+    38281 tgtgcgacta ttcacaacgg tttagtagac agtcttcaat aaatcttcaa ccgatacttc
+    38341 aacccacgat gcgggaaccg ggtattcagt ccggtacatg aacagggatg ttccgatcaa
+    38401 cccgcgtgaa tctgttttaa taccacgcat catcaacagt ggtaaaaact gttcccgtgt
+    38461 ttctggcaga cgtgcgaagc gtcctgttgg gcgtttagcc gggtccatag ggttaaattc
+    38521 aacgattgtg gacatagttg atcctctgtt tagctatttc acaataatgt gggtccattt
+    38581 caaaaccgat aaaatcaaaa ccttcaattg cacaagcttt acccgttgaa ccacttcctg
+    38641 taaacgggtc cagaacttta ccacctggcg gtgtaacgag acgtacaagc cattgcatca
+    38701 acgctgttgg ttttaccgta ggatggttat tacgtgcgcc tgatgtgcgt ccagcaccta
+    38761 cccgttggct gtttaatccg tcagtatcag gtttacggcc tgtcatttca gcagcggtcg
+    38821 ttttagcgag taatacacct tcgtcacggt ctgatttgct tgctttagca cagtagaaaa
+    38881 accgcgcagc acttcctgaa tcagcgtgaa aagcacctgg aaccctttta cgctgacttg
+    38941 ttacattgcc tgttgacgcc tgactatctt cagtaccttt tatgggtgca gcagcgccag
+    39001 ctttcgccgg aaacaggctt acgacttcat tagaaccatc gtgggtaaag ttagcgggga
+    39061 aacgtccatc attatttgtt ggttgaaatc cattttgttt accataaata ttgcgtttat
+    39121 tatttgttgg ttgatattgt cttttatggt ctccattact tataatccga caaccatcaa
+    39181 tattcatacc acctgtgccg aactgcaaga tgttttcaga aacagttcct accagcggtt
+    39241 tacgagcgac acagatcggt tcatgagcag gttttaaagc tgttccccat ccttgccact
+    39301 gttcatcacc catagcttta ctgacatcca gagatttagg aaaaccggaa ccgtacaccc
+    39361 agtctatttg atcgcggatt tcaaaccctg ctaaacggat cgccagtgtt cccaaatcat
+    39421 aggtacgtgt gccgaaaaac gccaataggt gaccgcctgg tttcaggaca cggaacactt
+    39481 ctttccagat tgacggaccc ggtacaaaac tatcccaata cttgcccatg aaaccatttc
+    39541 ccgtgtgaac ataatcatca ccgttcaacc agtggcgtaa cacttcgttc atatcaggct
+    39601 gtttactgag tccgtagggt ggatcggtga ctacagcatc aatactgtta tcagcaagca
+    39661 tcatacgcat accgatcaaa cattccatgt taatcaccat atggaatact ccctacactg
+    39721 taataaactg gaagacccag gcgttcagct tctgcaattt ctgccagtgt accggatgaa
+    39781 cgacgataat caggaagcac caggacagca tcacagcggc gcataacttc aagtgttcct
+    39841 gacaggtagt attcgggttg tacgttgcgt aaaccgccgt caaagtccca cagctcggtg
+    39901 ttcttatgtg ggattaccgg gaaccattca ggacgctcta atgtcagacg tttacccatt
+    39961 tgttcagcac gggacacatt acgggaggtt ttaagcgcac attcagcacg gtaaggcccg
+    40021 gcaatatagc agagtttcat tatttgtttt cctgcatttg taagaatacg atcatcgcgg
+    40081 cgcgaagtgg gttttgatga ttgtaataat catctgggta atatttccat tcccaacact
+    40141 cttcttctaa ttcaccgttt gcccatgcgc accattcttt ttcggcagcc atccacatgg
+    40201 tgctgatttt attttcagtg ataatcgacc atgcatcaga agcattactg gtgtatttaa
+    40261 aaccacctcg tgaccaacaa ccctgaatat ctttatcgtt cgcgtgaatg ccataaacaa
+    40321 cattcagaac aagacggtcg atctctctat cacttaaaac actgtaatca gtcatgacga
+    40381 ttcattccct ctaacatgtc ccagataagc gcaacacggc gcggatccgt gctgatagtg
+    40441 tgtaaagttt cacacccgta atgccatccc cagcgaacgg atagttctga caacaggtaa
+    40501 ccacgggaat tagccagttc agccagttca ccaggtttga acgttgttgt gttaggttct
+    40561 gtaagaacac gagtaccaca gatagcgtca ctgatgcgcc acggtttcat caggtcatca
+    40621 actttgtacc agttgctgat actgatttca gacgttcccc atcgtgcagc cagtttcaga
+    40681 cgttcctgac gggccgggaa cattggcatc tgtggtaaac gcagttggat ctgttctgca
+    40741 ggttcgaaca tgtcatcgtc tgttaaacgg aattcaccac ggtcatcaat ataaaaacca
+    40801 cgggaacgac catcacgggt gaatccgtca acacggttat aaattttacc gggggtaaag
+    40861 acaccaatcg gtgaaccagc tacgaatttg tgtgaagtat gcattgttat cgcctcaata
+    40921 aattttaaat aattctatac ggtttaccga agtggtgcaa cgagtttttc agcttctttg
+    40981 atgtaaaaat cataattgag cgttgcccgg ttaaaacgtt tcatgtcgtt gcactcagtg
+    41041 gtcaaccaac ctttacacac tgacatacgg cgttcaggcg cgtcagggtt cagtttcagt
+    41101 gattttgcca gcggtggcat gacttttgtc aacggtgcac catctgtact gacataataa
+    41161 cgagtgatgt tttgaacctg tttatcaccc cataataatt tgctgttacg cggtactttc
+    41221 gtcaccaaca taaaatcgtg aatatcttca tgtgatgtta taaaatcacg aatgtcttta
+    41281 ttgtgtacca gtgctgcttc agccgctttt gcgacaacct gcatactgtg gttttgatgc
+    41341 caacccagat caacgctgtg acaataagcg cctttacgtt taactttctt accgccttcg
+    41401 taaacagcga tgtaattatt tacatcgcgg ataaacatca cgtcataaat cgcttcttca
+    41461 agctggagtc tggttaattt ttcccacgcg tgacgaacct gttctacttg tccggtaaac
+    41521 actcgtggca cgtaaaccgt aagaccatct gtgttagcct ggatcatgga caaaccaggg
+    41581 attttcagaa gttcttcagc caacatgcac aaaagtaact gtccgttaat cgtaatagcc
+    41641 attgtataag caggatcgta gaatgggctg tatacgttat tactgtcacc atacacaccg
+    41701 tttaacgcca gttttaacat tgcgttttct ggtgtacctt tcgggtaact ggaacgcatg
+    41761 tcgtaaacat ttttataaat agtgcaaaat tgtttaccca gatgtgccgg ataaagttca
+    41821 ttactgatcg caaggtttgg gtaaaaactg gcaacgtcca gatcgatgat cacataattt
+    41881 tcagtggacc tgatagtttg agactcaata gacccgtgga taccacccgt accaaaatca
+    41941 aacgagaacc cgttaatgtc tgcgcttaaa tctgtgaata caccttttgt ttcagtgatg
+    42001 acctgttgac gtaaccagtt aagaacacga ttaaattcag gctgttcaaa acggacataa
+    42061 gggaaaatca cactgttcaa cgcgattgat ggtctgtgcg tctgtcgtgg ttttctgcta
+    42121 cccggttcga aacattgaat acctgatttt tcaagttcca tgatgaaata gtctttaccg
+    42181 attttcgtgt cgttatggtt catgaaatta cgaccgtatt tagcagaaag ttcacgacga
+    42241 aaatctatca gctttttact gtgtttataa aacatcaaag tcgctttcaa atcgtgcatc
+    42301 agatattgac gaagcgtatc aatttgagaa tcggttaaat aagcccctgg cgtaaacgga
+    42361 aggtcttcaa tgttttccat tctcatattg aattcaagtg ttttcagact tgttcgtttt
+    42421 gcctgattgt cgaaatgatg aattttgtac aaatcaagct ggggaactat ccagtctttt
+    42481 tcccacacca tatgagcaaa acgattttca tcaccggcgt taattatcga atcgcctttt
+    42541 ttgtaaatgt ctgcgttggt gatatacaag atgttattca aaatagaatg ctgaacagga
+    42601 tagtcgtaac ccagattgtt ataaccaact tcttcagcac gatgatcacg caaatattct
+    42661 gtgaagaagt aaaaagctga tcgatcatcg cgacgatgtg aaatctcaaa aatataaggt
+    42721 gtttcagtta acgcgtgaat agcaccgaac aggaaaacat taggatagtt ttcaatatcg
+    42781 tgaacgtaag catctgacat aataaaaccc tgataagtaa atggggcact atggccccat
+    42841 gtctgtttaa agcggtatat cgtcccagtt ccagtaacta tcagtaaccg ttaccgttga
+    42901 gaaaattcgg ggccggggtg gtcattacca tataaccgtt agcaatcagt tgttcatcgt
+    42961 tccaaccttg cgcaataaac tgttcgtaag ttgcaccacc tgctttttca gtcattactt
+    43021 ttacaggtgc tgccgctggt gtaggcgctg ctacaggtgc tgccgctggt gtaggcgctg
+    43081 ctacaggtgc tgccgctggt gttacgccga tcggacgtgc accttcaggc attgcaggag
+    43141 ccgcaccgaa cacagaggca ggagcaggac cggaaatgat ttcttcacct gcataaagca
+    43201 attgtgccat ttccatgttg atatatacgc cagcctgatt acctgtacga ccgtttgcaa
+    43261 cagatgatcc gctgatacgg tagtaataac cttttttcgc cagattttta tcaataactg
+    43321 gctggtacgc tgcgttataa acaggacacg cgtcaatagc cacgttgcgt gagaaaccaa
+    43381 ttacccagtg accagcataa ccagttttac tcgcatgttt cggatcgtca ccgttaataa
+    43441 ttttccatgc gaaagtgggt tgttgtggtt cgccgttcac atagtgtgag ttagccgctc
+    43501 gcatgatggc ctggaacacc gcaccaagtt caccttgttc ttcccaccag ttcgcagctg
+    43561 ttttaggaaa tgccagacca acccaccagt tatgtttttc aggtgctaac ggtttatttt
+    43621 cgtgatcatg agtgttgata tcgaaaaaag aaccgccaac cagacgacca accggagtta
+    43681 caaaagattc tttctgtgcc atgttattaa ccttctttta aagtggacgt gcgccagtcg
+    43741 gcatcgtcac gggtttatta aaaacagatt ctaccagtgt gctgtgacct ttacgcgggt
+    43801 cactgtcagg tactaaaact ggctgacctt ctggttttgt cgtacacatg tcaacaagtg
+    43861 ccggaggcag tgatttttcc agtgttgaca atggttttaa tttacgttcg tacaatgttt
+    43921 cagggtttac accaaacatt ggtgcagcac cgatcagttt tccttcgtcc gtaagctgac
+    43981 gtcgggtttg ttttgttgca agtttaaaac ccggtaaagc cttacccatg cgaacaaaat
+    44041 gtaatccctg agtatgtaac gctgtttttg cttcagaaga acgcgtatac agttcttcaa
+    44101 gaagtgccag acgacgcgct acttcttctg gcgtaagtga tggtggtgcg tcaagaacag
+    44161 tagccaattc taaaaccctc tcatacattg ccggacacat accacgcgcc ggacagtaat
+    44221 gacaatgact accaacattt aacggtgcgt ctggtttatg tgcttcgtta aacccgtgtt
+    44281 taaatcgttc agcccattcc atcaatgttg cccggttaaa ctcccaccgt cttacaggtc
+    44341 cgagcgggtg ataagcccgt ggctgaacaa ttgtgaacac aacacgctta acggtgtcga
+    44401 tgcaacgttg gtccagtgcg taatagaccc cctgtgagtt atcaactgct tcaactgcga
+    44461 catgaccgta tttataatcc catacgtaaa gcgtatcagt attaaagtca taccagcgat
+    44521 aatcacaggt tccatactga ccgggtaaca accagtcaat gtgaatgcga acttctgaaa
+    44581 acagcggatc aagtttcgca ccaactgaaa gaacatctgc tataaagtca tccgcgtaaa
+    44641 tatgcatgtc ttcagtaacc tgaacaccgt taggagcaag acacggcatt aatggcggtt
+    44701 tgcctttaat cttctgttct aacacccagt gtccggctgt accttcttca gcactgggtg
+    44761 atgatggttc tacataatca atccgctgtg acagttgaac gctacccgga caagctaacc
+    44821 aacgttttga tccactggca ctaaaggtag cgtgactggt catcagaatg ccccacccat
+    44881 ttgtttaaca gactcagcct gaccgacaat attttcagca tcagcagggg tagcgttaat
+    44941 acgttcaatc agttcgatga tagatttcaa tttcaccggg tcatcaatct gcattacatt
+    45001 ctgagtttca tacagtccca tgattcgctg acttaatggc gcggcacggt cacccgtaat
+    45061 ttgtccaaac atctgcatca gtgctgactg aagaacctgg gtgttataaa ctttagccgg
+    45121 atccgtggtt acaggttgct cgactggtgc agccggtgct gctggtacaa ctggagctac
+    45181 cggagcggca ggaaccgctg gagcaggatc aacaggtgct acataacccg gtgcaagttc
+    45241 tgcaggtccg gtataacgcc ctgcttcaac tgcttcagca ataagttcac gtttaacacc
+    45301 gtcaacaaac gcttcatcca gttttttctt ttgacgccac aggccatcac ctttgttcag
+    45361 ggatttactg tcagtgtgga tacgtggatc gtggcgcaaa ccccatttgt cgaactcttc
+    45421 agtgctggtt tcgttatagt caatatcttc agtcgttgct gatacaacag gcagtgattc
+    45481 agcaacgaca gtcacggttt ctttagtgat accatcaccc tgagcagtca tgagtggtgc
+    45541 agcaccagtc gcaatcgctg ctgccagatt gttgatcgca gtttccagac ccggagcagt
+    45601 tacaagtaat ttaacttcga acattacgtt ttcctcttgt tgtttggttg tcgctaactt
+    45661 taaaaggtgt tgtgtaatct gtcaagaatt attttacact cgcctttcgt tgatgcagat
+    45721 gttagaggaa taagttgcaa tgcgtcaaga actattttaa acttttttca cgattcgata
+    45781 ttacagggta gaaaatgaaa gctcgttatt atcagactga agctatcaat aacgtatgtc
+    45841 aggcatggtc aagcggtgct gacgacgtga ttcttgtgct tcccacgggg gcaggaaaaa
+    45901 cgttctgtat gtctgaactg gtaaaaacaa gagacggtgt aaaagtcatc caggcacacc
+    45961 gtaaagaact ggttagtcaa atcgcaatgg ctgttgctcg ccaggggtta gcacacagat
+    46021 ttatagcgca aaaagatact gttaagtttg caactaatca gcagatgaaa acgcttggtt
+    46081 acagtaccta ttcccccggc gctgacatcg ttattaccag ttcacaaacg ttaagaacaa
+    46141 aacagtacga acgatggtac aacgacgtgt ctcttgtgtt cagcgacgaa gcgcatcacc
+    46201 tggtgcgtgg cacacagtgg ggagactgcc gggaaaaatt ccctaacgct aaaggtctgg
+    46261 gtgttacagc tacaccgatc cgtgctgacg gtaaaggcct gggtcgtcat gcgtcaggtt
+    46321 acgcagatca gatgatcatt ggtccgtcaa tgcgtgagtt aatcagtcaa caacatctgg
+    46381 ctgattatcg tctgattatg gctgaaacag acctggaatt aaccgcagaa atgatttccc
+    46441 ataccacggg tgattacaaa ccttctgcgt taaaaaaagc gatggaagat tcaaacatcg
+    46501 ttggtgatac cgtcagtacg tggaaaacgt acgcagacgg tttgctcact gttgtgttta
+    46561 cgtgtgatgt ggattctgct gaagcactgg cgcaagaatt tcgcgatgct ggcattcctg
+    46621 cagaggcgat cagctcacga aacagcaatc aggaacgagc ggatatcctg gaacgttttg
+    46681 aacgacgtaa gacgcttgta ctatgtaaca acgatttatt cggtgaagga tacgactgtc
+    46741 cggcaatgga atgtgcagta atggaccgtc ccacagaatc ttactctttg tttgtacaac
+    46801 aaatgggtcg accgttgcgt ttcaaaccgg gtaaaaaagc actgattatt gataaagtcg
+    46861 gtaatgttcg tcgatttctg gcccgtggtt ttccacttcc cgatcagcat tacaactggt
+    46921 ctttagatga ccgttaccgt cgttcatcta acagcagcgg gaacagtaac acaacatgca
+    46981 caaacaaggg tgatcctgat aatggtattc caccgtgtct gaagccttat ccgtctggtc
+    47041 tgccatgctg cccatattgt ggtcatattc ctgaaaaagc cgaacgctca ggcccggatc
+    47101 gtgtagaagg taatttacgt gaactgacac ctgaagaact ggaagaatta cgccgggcag
+    47161 tggtgataat cgaccgtgat cctgttgcgg taaaagaaca aatgttaaac gctggtgcac
+    47221 cccctgttgc agcttacagt gcaatgaaaa acattcaggc aatgaacgat gcacagcata
+    47281 aactacgtag cataattacc acatgggccg gtattcagcg tgataaaggt atacccgttg
+    47341 atgacgctta caagatgttt tacagggtgt ttggtgttga tgtacttagc gctcaggggt
+    47401 tacgtactcg tgaagctaat gaactcgccg caagggttgc aagttcatta atctgatggt
+    47461 aatctgcata gaaatatttt aaacgtaagg aactgtaatg cgtgatttga tggttgacat
+    47521 tgaaacgtgt ggtactaaac cgggttgtgc agtgctgtca attggcgctg tttactttga
+    47581 ccgtcagggt aacattggtg aaacatttta cgcatcaatg ggttttaatg cgctcgctta
+    47641 tggtcacaca gaccctgaca ctatgaagtg gtggtcgcag cagtcagaac aagcacaaaa
+    47701 agatgctttt ggtggtactg ccgatcctgt tcaggttgct aaagattttg ccaaattcat
+    47761 ctggcacgat gctaaaccgt ggggaaatgg ttccacattc gatatcacta ttctggaagc
+    47821 atggtttaat gctgttggtg ttcgttgccc gtggaagttc tggaacgtcc gtgatgttcg
+    47881 taccgctgtt gatttgctgg gtattaaccc gaaagaattt acccgtgacg gtacttacca
+    47941 caatgcatta gacgactgtt tacaccagat taaatatctt actagcggga ctaaaacatt
+    48001 atgacaacgc ttgaacaatg ggcgattcgt cacggcgtta gtcagatggc gttgtacgag
+    48061 ttatacgctc tttatcagcc tgacggaaca ccacacgaag acggtgtaaa tgaaagcgcc
+    48121 accagtaaag agtgtgaact gattgcggca cgtgcagggc aacgtatctg gcgtaataac
+    48181 tcaggtgctc tgaaaaacga aaaaggaatg atggttcgtt atggtcttgg caataccagt
+    48241 gcgaaaatta acgctgttat gaagtcaagc gactatatcg gcattaaaac caaaatcgtt
+    48301 acaccggata tggtcggttc taaagtaggc gtctttattg ctgccgaaat gaaacgtccg
+    48361 aactggcata tgatccacag tgataaacgt gcacaagcac aggccacttt cggtgcgatt
+    48421 gttgaaaacg caggtggtga atttcgtttc atcactcatc cttcacaatt tgaaaaatgg
+    48481 attaaacaat gaatactgaa cgcattgaac gtctgcaaaa actgattgat aaccacggta
+    48541 ttgaggctgt tgctaaacgt ctgaacgtta ctgaaattca tgttaaacgt aatctgctta
+    48601 ccgggcgatc tgctatcaac ctggtcaaac tgatggctgc tgaacgtcag ttcggagcgt
+    48661 aaattatgaa agggttactg aaccgtaaac agtgggtcat gtggcgactt gagacagtcg
+    48721 ccgatcgtcc aaaaccaacg aaagtaccat acagcccggt acacggttat aaagccagta
+    48781 ccactaaccc taacgactgg tctgactatc acaccgcgtt aggtatggcg caaatgtacg
+    48841 gtatgtctgg tgttggtttt gtattcacag aaaacgatcc gtacttcttt attgatgtcg
+    48901 ataactgtct ggtagatcag gcaacagcca catggtcacc actggcgcat gaattcgtaa
+    48961 accgttttcc aaatgcgtac accgaagtca gtcagtcagg aacaggtttg catatcatct
+    49021 gtgcttatac cagcataccg gaaggtttta acagtctgaa cgaccagaaa accgggttgg
+    49081 aaatgtactg gcgtgatcgt ttcgtcgcga tgacgctcac gggtaatggt gatgttgata
+    49141 ttgattatac ccagggtatt catgattcta ttgcccggta tggtcgcatc cgttcagacc
+    49201 gttccgcacg ctggacaaca gcaccctgtg atgactggtc aggcccggca gacgatgatg
+    49261 aactgattaa aatggcgtta aattcgtcca gtgctgcttc agtatttggt aataaagcgt
+    49321 catttgcaga tctgtggaat gcaaacgttg aacgcctgtc tgtgtcatat cccagcgacc
+    49381 agggaaaaga ctacaatgca tcagcagcag atgctgccct gtgttcacac cttgcattct
+    49441 ggaccgggaa agattgcgaa cgtattgaac ggttgtttaa ccgttccggg ctggttcgtg
+    49501 gtaaatggac agatcgtcag gattaccgtg aaaacacgat tctgggcgct gtggaacgtt
+    49561 gtgatacggt ttatcgtagt caaccgacgc tgacaccaga actgatgaaa gcagtcacac
+    49621 cagcgcctac agtcgttcct aatggtggaa cacctgcgta catgagtgtg aaacccggtg
+    49681 aaggtgcata tggttcaaac cacacggtta acgcatccac gttcgttaat aactattatc
+    49741 cgaacaacac attgattttt gtccagcaac agccgtaccg gttcaatggt cgcgtgtggg
+    49801 aacgtgtcag tgaagatgaa ctgaaacatc agatatctat ggcaatgctc gccagcgaac
+    49861 caaacgccga cgtgattaat ggtacgtaca aggtattgtc gtatttattc acacgcgctg
+    49921 atcgtgagct tggaacatgg cccggcgttg atgtatcaca ctatattgtt tgtcagaacg
+    49981 gaatactgga tgtacacact ggtaaatgtg acgcacataa cccggatttc tttacaacca
+    50041 gtattttacc gtatagctat gatccgtttg cccgtgcacc agcgtttgaa cagtttttaa
+    50101 atacaactct ggaaggtgat caggaacgta ttgcactgtt gcaggaatgg ctgggctaca
+    50161 tgcttgtcaa ctcgtatgac tatcagaaag cgatgctgtt gattggtgca ccacgttccg
+    50221 gtaaaggtac gattggtcgc atcattcagg cactggtagg tgatgaagcg tatgcaggga
+    50281 tcacactgga gggtttagca agtgatgcgg tacttgaaac tgtgctggat aaatctgtgc
+    50341 tgtttatcgg tgatgctcac agtgtgtccg ggcctgatcg caaccgaatt ctggaccgtt
+    50401 tcaaatctat tacaggttgt gatgcgattc cggttaatcg taagtataaa ggtgcatgga
+    50461 acggtcgttt accgggacgt atgacactgg ctgctaacaa catccctgca tttgctgatg
+    50521 attccggtgc aatggctaac cgtttgctga tcctgccatt caacatttcg ttcctgggtc
+    50581 gtgaagatac cactctggaa gcacgactga tgaaagaact accggggatc tgtaactggg
+    50641 cgattgaagg tttacaacgg ttacgtgcaa acggacggtt tactgaacca aaagcaagtc
+    50701 tggaagaacg tcaggaaatt atggaccaac aatcaccact tagaagtttt atcagagatt
+    50761 gttgcgaatt ggtatctgat ggtgaggtgc acactgaaga actatatggt cgttatcgcc
+    50821 tctggaaaac acaggaaggt ggtccagcaa tgactaaaac tgcatttagt cgggcgttta
+    50881 aatccactct tcgtggtaaa gtgaaaaaag acgttgttaa tataaataac gtacgattaa
+    50941 acggtttcag gggtattcgt cttctccctt ttcagtcaac agctaatgta gtgcctttcc
+    51001 cacctgcgag taacggttag tcattgcaca aggatgtgta aaataattct tgacgaatta
+    51061 cagaggtgtg cgctatagtc tgtacatcaa gtgaacaagg agtgattgtt atgaaaccac
+    51121 gctaccgatt aatgagactt tcacagtgtc ctaacggaac acggttttat ttttatcgtc
+    51181 tgaagcaact attacctttc acgttaattg ctaacagctt caagaaacac gaaagcattt
+    51241 atcacgaggg tcatgatttt aatataaccg cgcgaaaata cagaacgtct attcataaac
+    51301 ttgtgtgggc taaggtgaac taaaatgaaa aacatatttg accgtttaat tactgttatt
+    51361 gtatttcttg tatccgtaac actcgcgtct tgcattgtcg gactaatgac ccgtggtaat
+    51421 catgcggaaa caccgtggtg gtttctgtcg ggtattggat tattagcggc tgtgacatca
+    51481 attggcgctt gcatgtgggg agtgaaaaac gatcatgact gagttcggtg ctgtaatcaa
+    51541 aaaagaagac cgttatgcac atattgatac ccggattacc tgggttgata tcagtgaagc
+    51601 tactctgttc agttcaactt acatggctgg tgttgcactt aaatcacttc gcgatcaggg
+    51661 tttcaattgc agaaaagtaa caattgcgcc tgttaaaatc acgcggatcg tcgaggagac
+    51721 agaaggatga aaattgtctg gtcgttattc gacggttccg ggattatggg cttaccgtgg
+    51781 gttaaggctg gctatcaggt ttattgcttt aatgctgatg gtgctgatca tggtccatat
+    51841 gataaatttc atgcgagata catccacgaa gggcttcatt atgtaaacgc atggatagat
+    51901 gttaatttta tgaatgctgc ggttgcgggt atttatggga agccggatat tatatttgca
+    51961 ttccctccct gtacagatat ggctgtaagt ggtgcatcag cgtttgaatc taaaaggaaa
+    52021 aaagatccgt tatttcaaga aaaagcagca tttacggcga tgattgcaag tagaatcgct
+    52081 gaccatttca atattccgta tgttgttgaa aactcggtca gtgttctttc tactttttgg
+    52141 cggaaacctg attatatatt taacccgtgg gaatatggtg gttatctacc tgaaaatgac
+    52201 attcatcctt tctttcctga gtatattaat ccacgggatg cttaccctaa gaaaacatgt
+    52261 ttatggacag gtaacggttt tattatacca gaaaagaaaa ttgtcaaggt tgaaaaaggt
+    52321 tattcaaacc aacatcttaa attaggcgga aaatctacta aaacaaaagt catcaggtca
+    52381 ttaaccccgc gtggttttgc tcgcgctgta tttgaggcta ataaataatg ataatagtcg
+    52441 ttacaggcgg tcgtgacttc aacgacagaa cagcagtatt ttccgcgtta ggaatacttc
+    52501 acaaacaatt ccccattacc gaactaattg aaggtggtgc gtcaggtgtt gataacctgt
+    52561 gtaagcaatg ggcgcagtta cacagtattc ctgtgcgtag ttgcccggca gcgtgggatg
+    52621 atctgactgt accaggtgcg gttgtaaaac agggtaagca cggggcttat aacgctgttg
+    52681 caggtcatca acgtaatcag gcaatgttag agggtgaacc acggcctaca tacggtgttg
+    52741 tgttccctgg tgggcgtggt actgctgata tgcaccgtcg catgttgaaa gctggtttaa
+    52801 ctgtgtgggt tccgtactca tgaaactgtc taaaaagcag cgtcaggaac tgcgtatgaa
+    52861 attcggcggg tattgtgctt actgtggtca gttgttgccg gaaaaaggct ggcacgcgga
+    52921 ccatgttcag gctgtttatc gtaaacttga acaggatatg gacgcggcta aaaaaggttt
+    52981 atggaaacta aaagcaaccg gagaacatta tcgggaacat aatgatgttc ttgaaaatct
+    53041 gtacccagct tgtgcacctt gtaatctgtt taaaactacg tatacgctgg aacaattccg
+    53101 taaacaaatc ggtgaacaag taaaccgcgc taggtcatac agcgttaatt ttcgcacggc
+    53161 tgaacgtttc ggactgcttc aagtgattga acgccccgtg gtattctggt tcgaaatcta
+    53221 ccctctgata gttcaaaata attcttgaca gattaccaac cctccccgat aattagcctc
+    53281 agttaacaca catgaggcta aacacaaatg gctaacatta actcccttcg caagctgtct
+    53341 gataccgata aaaccaacgt aaaacgtggt aatgcgtatc gtattgatcc gcgtataatc
+    53401 aagattcgcc caggacataa cccacgcggt gtatttaccg acaactactg ggaaactgaa
+    53461 gcagcactgg cacacattga aaactttcgt caggcttata ctaacggtga tttcgttcca
+    53521 ccgatcgtgg tacaggttgt tgacggtgtt ccgtatgttc aggatggtga gcatcgttta
+    53581 cgtggcgtat tggcagctat tgaagccggg acgccgattc tgacagtaga cgttgttgaa
+    53641 tcgtccggtg acgaactaca acagaccctg acactgttaa aaggtaatga gggtaaaccg
+    53701 tggtcccctg ttgaacgtgc tgttatttac ggtcgtttcc gttcatatgg tatgagtgtt
+    53761 gagcagatcg ctacacaggt cggtaaaacc gttcagcacg tttacgaaca gctgaatatt
+    53821 cttgatatgc cgctggaact taaacgccgg atccagaatg gtgaaatcag cgcatcagca
+    53881 gccattcgcc agtttaaagc aggtgataaa gaaccagtag tcacgcgtcg tccgcctgct
+    53941 aaactggtac ggtctgcagt ggaagcaatc cgcggtgaat ggtctgtaac ccgttcggaa
+    54001 ggtggtaaag tcctggttga acttaccgct gaacagttcg aagcgttaaa agcactgaag
+    54061 gagcaccagt tatgaaaaac cgcaaggcaa agatgcttat ctcccgtgta tacagacttt
+    54121 gttatcccag ccaatggttg agagttagca atcgccgtgt ggtgttgttt tcattttctg
+    54181 gaatcgccag agagggagtc agtgataagc ccagcgcggc gcaaaaccgc tggaaaaacc
+    54241 acctgcgcac taaaggagac tagtttatgt cagacaactt aacatcaatt tacggtacgt
+    54301 tgacctgtcg tatattgtgg ttacaccaat tttttgaaac gttacccgga ggaactaaca
+    54361 catgaataaa gcatcacctg tagaaatacg caaatgtctt gaaatggcaa acagtcttgc
+    54421 acatgcaggg attagatttg tccctgtacc ggtaactagt gatgatgaat ttaattcgct
+    54481 ggtttctcat tcttacggga tactggacaa aatagcagac gattgtgaca ccaccaacca
+    54541 gcaattcgaa agtctggcta aacatgaata gttaatcgtc agtgtgctct atgtagcgca
+    54601 cgttttctat gaggtgtatc gatgagtttg tttcaatgtg aaaactgtgg gtgtgttgaa
+    54661 aacaccgctc tgtcttctca ggggtttaac ggcttctttg aaaaattata cgactggtca
+    54721 tatgcacctg aaaggaaagg taaacgatta tgttcagcgt gtggtcccgt taaatacaaa
+    54781 gatggaaaag ataccgaata cggtaaatgg cataacgttt tcccgcgtca gtatttacca
+    54841 ttgggcaagt ttaaaacgaa tcgtcagggt aatctggaac atgttgaaac gggtgaaaca
+    54901 gattatcaac cttatatact taaacaggat ggtgactgga aaaacgaacc cttctgttaa
+    54961 caaaaagcgg ggctaactac cccgctatct ttattgaccc atcatatctt tatacatcat
+    55021 caaaacaaca tcatccggca tattatctac atcgcaatga ggattgtgtg ataacgcata
+    55081 cagtctgatt ttctccttca aatcgctgac atcgactaca ggtggttccg ctcgtgctac
+    55141 aggtggttcc gctcgtgcta caggtggttc acaaaccatc atgttaaacg gtgtaccggt
+    55201 gtcttcgtat ttttcaagca aatcgaccat tacgtttaca cattccggga tccagccccg
+    55261 gcgcaaacca ttctgaatcc aactgtcagt aattgtgtgt tcatttaaat ttctacgtag
+    55321 cacatatctt gcacattcaa aattaccgca catcgcctca aaccgtgtcc acacgtcgtg
+    55381 accgtgaata gcttccagga tctgtgaatc aacgtatctg atacgttgcc agtagttatt
+    55441 agcaaaacgc ctgtgtggta atttctgacg cagttcggta accggtagcg tgtgtttaag
+    55501 aacaatgttt tcgtcagaat gttgtactga cgaaggtgac agtgtgaagt cagtaatctc
+    55561 ttcaagaata atactgatcg tttcgtattt aggatgaaac ctaccgctca accattggtt
+    55621 gtaacgacca acagttacct taacaccccg acgattaagg tattcaacag cattttgtac
+    55681 cccgcctttt aaatctatca attcgtctaa aaggttcttt ttcattatca cccctcctta
+    55741 tttaaccacg ggtaaatcat aacgtgcatt agcagctagt gcaagatgtg ctttatatgt
+    55801 tagtgtattt acacctagtg catattgtgc tttagcagtt agtgcaagat gcacgttgtg
+    55861 cattaactgt tagtgcacgt tgtgtatcta tgttggtaca gctaatgcac gttgtgaatt
+    55921 atatagtgca tgttgtgcat taaagttata cttaacatag atttcgccat gtttattt
+//
