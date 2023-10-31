@@ -12,7 +12,6 @@ import time
 import os
 
 import matplotlib.pyplot as plt
-# import seaborn as sns
 import pandas as pd
 import copy
 from scipy.stats import wilcoxon, mannwhitneyu
@@ -20,7 +19,7 @@ from scipy.stats import wilcoxon, mannwhitneyu
 
 tRNA_data_dir = "../../datasets/tRNAs/"
 output_dir = "../../results/tAI/" + time.strftime("%Y%m%d%H%M%S") + "/"
-os.mkdir(output_dir)
+os.makedirs(output_dir)
 
 
 
@@ -475,41 +474,36 @@ def barplot_hosts_phages_satellites(mcp_results, satellite_mcp_results):
 
 # -----------------------------------------------------------------------------
 
-# Input data
-phage_host_dict = make_phage_host_dict()
-satellite_helper_dict = {"MiniFlayer": "MW291014", "MulchRoom": "MT897905"}
-phage_acc_name_dict = make_phage_acc_phage_name_dict()
-
-
-
-# Analize pahges MCP tAI
-mcp_results = analyze_host_phage_systems(phage_host_dict)
-barplot_hosts_phages(mcp_results, "Major Capsid Protein")
-
-# Control experiment with all host CDS
-host_all_CDS_results = host_CDS_control(phage_host_dict, 'all')
-barplot_hosts_phages(host_all_CDS_results, "All host CDS")
-
-# Control experiment with host ribosomal proteins
-host_ribosomal_results = host_CDS_control(phage_host_dict, 'ribosomal')
-barplot_hosts_phages(host_ribosomal_results, "Host ribosomal proteins")
-
-# Analize satellite-helper systems
-satellite_mcp_results = analyze_helper_satellite_systems(satellite_helper_dict, phage_host_dict)
-barplot_hosts_phages_satellites(mcp_results, satellite_mcp_results)
-# violinplot_hosts_phages_satellites(mcp_results, satellite_mcp_results)
-
-
-
-# Significance
-
-# Wilcoxon signed-rank test
-res = wilcoxon(mcp_results['tai_p'], mcp_results['tai_h'], alternative='greater')
-print(res)
-
-# Mann-Whitney-U
-res = mannwhitneyu(mcp_results['tai_p'], mcp_results['tai_h'], alternative='greater')
-print(res)
+if __name__ == "__main__":
+    
+    # Input data
+    phage_host_dict = make_phage_host_dict()
+    satellite_helper_dict = {"MiniFlayer": "MW291014", "MulchRoom": "MT897905"}
+    phage_acc_name_dict = make_phage_acc_phage_name_dict()
+    
+    # Analize pahges MCP tAI
+    mcp_results = analyze_host_phage_systems(phage_host_dict)
+    
+    # Analize satellite-helper systems
+    satellite_mcp_results = analyze_helper_satellite_systems(satellite_helper_dict, phage_host_dict)
+    
+    # Make barplot
+    barplot_hosts_phages_satellites(mcp_results, satellite_mcp_results)
+    
+    # Significance
+    # Wilcoxon signed-rank test
+    wsr_res = wilcoxon(mcp_results['tai_p'], mcp_results['tai_h'], alternative='greater')
+    # Mann-Whitney-U
+    mwu_res = mannwhitneyu(mcp_results['tai_p'], mcp_results['tai_h'], alternative='greater')
+    
+    # Save to txt file
+    significance_filepath = output_dir + 'Significance.txt'
+    with open(significance_filepath, 'w') as f:
+        f.write('SIGNIFICANCE\n')
+        f.write('\nWilcoxon signed-rank test:\n')
+        f.write('Statistic = {}\np-value = {}\n'.format(wsr_res.statistic, wsr_res.pvalue))
+        f.write('\nMann-Whitney-U test:\n')
+        f.write('Statistic = {}\np-value = {}\n'.format(mwu_res.statistic, mwu_res.pvalue))
 
 
 
